@@ -13,7 +13,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar app color="blue darken-3" dark>
+    <v-toolbar app color="amber lighten-3" dark>
       <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title>{{appTitle}}</v-toolbar-title>
