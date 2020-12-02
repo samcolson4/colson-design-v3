@@ -1,12 +1,16 @@
 <template>
-<div>
-</div>
+    <span>
+        <main-page></main-page>
+    </span>
 </template>
 
 <script>
+import MainPage from '../components/MainPage.vue';
 
 export default {
-  name: 'Home',
-
+    name: 'home',
+    components: {
+        MainPage
+    }
 };
 </script>
