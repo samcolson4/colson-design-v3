@@ -5,8 +5,7 @@
         class="display-1 font-weight-bold blue darken-3 white--text text-xs-center"
         style="max-width: 25em; padding: 1em;"
       >
-        I changed careers to become a developer because I want to build
-        something new.
+        I changed careers to become a developer.
       </div>
     </v-layout>
   </v-container>

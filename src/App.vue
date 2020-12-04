@@ -6,9 +6,7 @@
       <router-view></router-view>
     </v-content>
     <Footer></Footer>
-
   </v-app>
-
 </template>
 
 <script>
@@ -20,7 +18,7 @@ export default {
   components: {
     AppNavigation,
     Footer
-}
+  }
 };
 </script>
 

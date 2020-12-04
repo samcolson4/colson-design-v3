@@ -1,12 +1,6 @@
 <template>
-  <v-footer
-    padless
-    fixed
-  >
-    <v-row
-      justify="center"
-      no-gutters
-    >
+  <v-footer padless fixed>
+    <v-row justify="center" no-gutters>
       <v-btn
         v-for="link in links"
         :key="link"
@@ -17,10 +11,7 @@
       >
         {{ link }}
       </v-btn>
-      <v-col
-        class="blue-grey lighten-3 py-4 text-center white--text"
-        cols="12"
-      >
+      <v-col class="blue-grey lighten-3 py-4 text-center white--text" cols="12">
         <strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}
       </v-col>
     </v-row>
@@ -28,10 +19,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'footer'
-  };
+export default {
+  name: 'footer'
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
