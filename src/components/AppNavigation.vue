@@ -11,7 +11,9 @@
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down" to="/">Home</v-btn>
       <v-btn flat class="hidden-sm-and-down" to="/projects">Projects </v-btn>
+      <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down" to="/github">GitHub</v-btn>
+      <v-btn flat class="hidden-sm-and-down" to="/linkedin">LinkedIn</v-btn>
     </v-toolbar>
   </span>
 </template>
