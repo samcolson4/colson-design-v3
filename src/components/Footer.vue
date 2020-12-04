@@ -18,10 +18,10 @@
         {{ link }}
       </v-btn>
       <v-col
-        class="amber lighten-3 py-4 text-center white--text"
+        class="blue-grey lighten-3 py-4 text-center white--text"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <strong>Sam Colson</strong>
+        <strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}
       </v-col>
     </v-row>
   </v-footer>
