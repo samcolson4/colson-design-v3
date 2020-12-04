@@ -27,11 +27,15 @@ const routes = [
   },
   {
     path: '/github',
-    beforeEnter() {location.href = 'http://github.com/samcolson4'}
+    beforeEnter() {
+      location.href = 'http://github.com/samcolson4';
+    }
   },
   {
     path: '/linkedin',
-    beforeEnter() {location.href = 'https://www.linkedin.com/in/samcolson/'}
+    beforeEnter() {
+      location.href = 'https://www.linkedin.com/in/samcolson/';
+    }
   }
 ];
 
