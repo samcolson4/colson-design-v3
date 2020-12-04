@@ -1,7 +1,7 @@
 <template>
   <span>
-  <projects-macro></projects-macro>
-  <project-cards></project-cards>
+    <projects-macro></projects-macro>
+    <project-cards></project-cards>
   </span>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   name: 'Projects',
   components: {
     ProjectsMacro,
-    ProjectCards,
+    ProjectCards
   }
 };
 </script>
