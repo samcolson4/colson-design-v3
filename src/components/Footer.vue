@@ -1,20 +1,37 @@
 <template>
-  <v-container fluid fill-height class="footer">
-    <v-layout justify-center align-center column pa-5>
-      <div
-        class="display-1 font-weight-bold blue darken-3 white--text text-xs-center"
-        style="max-width: 25em; padding: 1em;"
+  <v-footer
+    padless
+    fixed
+  >
+    <v-row
+      justify="center"
+      no-gutters
+    >
+      <v-btn
+        v-for="link in links"
+        :key="link"
+        color="white"
+        text
+        rounded
+        class="my-2"
       >
-        This should be a footer.
-      </div>
-    </v-layout>
-  </v-container>
+        {{ link }}
+      </v-btn>
+      <v-col
+        class="amber lighten-3 py-4 text-center white--text"
+        cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong>Sam Colson</strong>
+      </v-col>
+    </v-row>
+  </v-footer>
 </template>
 
 <script>
-export default {
-  name: 'Footer'
-};
+  export default {
+    name: 'footer'
+  };
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
