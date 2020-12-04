@@ -6,7 +6,8 @@
   </v-container>
 </template>
 
-<script> export default {name: 'SignpostsAR'};
+<script> 
+  export default {name: 'SignpostsAR'};
 </script>
 
 <style scoped>

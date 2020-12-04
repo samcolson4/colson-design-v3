@@ -1,7 +1,6 @@
 <template>
   <span>
-
-    <v-toolbar app color="white" >
+    <v-app-bar fixed app color="white">
       <v-toolbar-side-icon
         class="hidden-md-and-up">
         </v-toolbar-side-icon>
@@ -13,7 +12,7 @@
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down" to="/github">GitHub </v-btn>
       <v-btn flat class="hidden-sm-and-down" to="/linkedin">LinkedIn</v-btn>
-    </v-toolbar>
+    </v-app-bar>
   </span>
 </template>
 
