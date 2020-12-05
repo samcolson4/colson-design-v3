@@ -1,7 +1,7 @@
 <template>
   <v-footer padless class="footer">
-    <v-row justify="center" no-gutters>
-      <v-btn
+    <v-row no-gutters>
+      <!-- <v-btn
         v-for="link in links"
         :key="link"
         color="white"
@@ -9,10 +9,10 @@
         rounded
         class="my-2"
       >
-        {{ link }}
-      </v-btn>
-      <v-col class="blue-grey lighten-3 py-4 text-center white--text" cols="12">
-        <strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}
+        <a :href="link.url">{{ link.title }}</a>
+      </v-btn> -->
+      <v-col class="blue-grey lighten-3 py-4 text-right white--text" cols="12">
+        <span class="f_name"><strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}</span>
       </v-col>
     </v-row>
   </v-footer>
@@ -21,7 +21,18 @@
 <script>
 export default {
   name: 'footer',
-  links: [{ Home: '/' }, { Projects: '/projects' }]
+  data: () => ({
+    links: [ 
+      {
+        title: 'Home',
+        url: '/'
+      },
+      {
+        title: 'Projects',
+        url: '/projects'
+      }
+    ]
+  })
 };
 </script>
 
@@ -30,5 +41,9 @@ export default {
   bottom: 0;
   min-width: 100%;
   position: fixed;
+}
+
+.f_name {
+  margin-right: 2em;
 }
 </style>
