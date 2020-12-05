@@ -6,7 +6,7 @@
 
     <div>
       <v-template>
-        <v-row class="fill-height" align="center" justify="center">
+        <v-row class="fill-height" id="row" align="center" justify="center">
           <div v-for="(item, i) in items" v-bind:key="item" class="card">
             <v-col :key="i">
               <v-hover v-slot="{ hover }">
@@ -38,7 +38,7 @@
         </v-row>
       </v-template>
     </div>
-    <br /><br />
+    <div class="footer_padding"></div>
   </v-container>
 </template>
 
@@ -51,20 +51,20 @@ export default {
         title: 'Signposts AR',
         text: 'An iOS app, built using Swift and RealityKit.',
         img:
-          'https://raw.githubusercontent.com/samcolson4/signposts-AR/main/screenshots/Savesign.png',
+          'https://i.imgur.com/87LgrIq.png',
         url: '/projects/signposts-ar'
       },
       {
         title: 'Acebook',
         text:
           'A popular social media website, cloned. Built using Ruby on Rails.',
-        img: 'https://i.imgur.com/xvvEZ1s.png',
+        img: 'https://i.imgur.com/m7Lbeyq.png',
         url: '/projects/acebook'
       },
       {
         title: 'Colson Design',
-        text: 'This website, built in Vue.JS and Vuetify.',
-        img: 'https://i.imgur.com/xvvEZ1s.png',
+        text: 'My personal website, built in Vue.JS and Vuetify.',
+        img: 'https://i.imgur.com/ddqG122.png',
         url: '/projects/about-colson-design'
       }
     ]
@@ -77,10 +77,13 @@ export default {
   max-width: 90%;
 }
 
+#row {
+  min-height: 500px;
+}
+
 .card {
   text-decoration: none;
-  max-width: 20em;
-  min-width: 10em;
+  max-width: 350px;
 }
 
 a {
@@ -100,5 +103,9 @@ a:visited {
   word-break: normal;
   font-weight: 300;
   font-size: 80%;
+}
+
+.footer_padding {
+  padding-top: 15em;
 }
 </style>
