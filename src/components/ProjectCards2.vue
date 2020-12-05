@@ -11,20 +11,21 @@
         <v-col :key="i" cols="3" md="4">
           <v-hover v-slot="{ hover }">
             <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }">
-              <v-img :src="item.img" height="500px">
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <div class="card_header">
-                        <span class="headline white--text">{{
-                          item.title
-                        }}</span>
-                      </div>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-
+              <a :href=item.url class="card">
+                <v-img :src="item.img" height="500px"> 
+                  <v-container fill-height fluid>
+                    <v-layout fill-height>
+                      <v-flex xs12 align-end flexbox>
+                        <div class="card_header">
+                          <span class="headline white--text">{{
+                            item.title
+                          }}</span>
+                        </div>
+                      </v-flex>
+                    </v-layout>
+                  </v-container>
+                </v-img>
+              </a>
               <v-card-title primary-title>
                 <div>
                   <div class="card_text">
