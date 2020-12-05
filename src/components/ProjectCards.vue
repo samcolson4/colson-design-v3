@@ -12,7 +12,9 @@
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">Signposts AR</span>
+                  <div class="card_header">
+                    <span class="headline white--text">Signposts AR</span>
+                  </div>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -20,8 +22,8 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Signposts AR</h3>
-              <div>
+              <!-- <h3 class="headline mb-0">Signposts AR</h3> -->
+              <div class="card_text">
                 An iOS app, built using Swift and RealityKit.
               </div>
             </div>
@@ -36,7 +38,9 @@
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
-                    <span class="headline white--text">Acebook</span>
+                    <div class="card_header">
+                      <span class="headline white--text">Acebook</span>
+                    </div>
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -44,7 +48,7 @@
           </a>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Acebook</h3>
+              <!-- <h3 class="headline mb-0">Acebook</h3> -->
               <div class="card_text">
                 A popular social media website, cloned. Built using Ruby on Rails.
               </div>
@@ -59,16 +63,18 @@
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
-                  <span class="headline white--text">Colson Design</span>
+                  <div class="card_header">
+                    <span class="headline white--text">Colson Design</span>                
+                  </div>
                 </v-flex>
               </v-layout>
             </v-container>
           </v-img>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Colson Design</h3>
-              <div>
-                This website, built in Vue.JS.
+              <!-- <h3 class="headline mb-0">Colson Design</h3> -->
+              <div class="card_text">
+                This website, built in Vue.JS and Vuetify.
               </div>
             </div>
           </v-card-title>
@@ -89,8 +95,14 @@ export default {
   text-decoration: none;
 }
 
+.card_header {
+  background-color: #ff7043;
+  padding: 3px;
+  text-align: center;
+}
+
 .card_image {
-  border: 2px solid black
+  /* border: 1px solid grey */
 }
 
 .card .card_image :hover {
