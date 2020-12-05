@@ -7,28 +7,31 @@
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md4>
-        <v-card>
-          <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" height="500px">
-            <v-container fill-height fluid>
-              <v-layout fill-height>
-                <v-flex xs12 align-end flexbox>
-                  <div class="card_header">
-                    <span class="headline white--text">Signposts AR</span>
-                  </div>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-img>
+        <v-hover v-slot="{ hover }">
+          <v-card :elevation="hover ? 12 : 2"
+                :class="{ 'on-hover': hover }">
+            <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" height="500px">
+              <v-container fill-height fluid>
+                <v-layout fill-height>
+                  <v-flex xs12 align-end flexbox>
+                    <div class="card_header">
+                      <span class="headline white--text">Signposts AR</span>
+                    </div>
+                  </v-flex>
+                </v-layout>
+              </v-container>
+            </v-img>
 
-          <v-card-title primary-title>
-            <div>
-              <!-- <h3 class="headline mb-0">Signposts AR</h3> -->
-              <div class="card_text">
-                An iOS app, built using Swift and RealityKit.
+            <v-card-title primary-title>
+              <div>
+                <!-- <h3 class="headline mb-0">Signposts AR</h3> -->
+                <div class="card_text">
+                  An iOS app, built using Swift and RealityKit.
+                </div>
               </div>
-            </div>
-          </v-card-title>
-        </v-card>
+            </v-card-title>
+          </v-card>
+        </v-hover>
       </v-flex>
 
       <v-flex xs12 sm12 md4>
@@ -86,7 +89,7 @@
 
 <script>
 export default {
-  name: 'HomePlans'
+  name: 'ProjectCards'
 };
 </script>
 
