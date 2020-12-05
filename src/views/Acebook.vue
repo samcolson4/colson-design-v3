@@ -9,7 +9,7 @@
 
 <script>
 import AcebookDetail from '../components/AcebookDetail.vue';
-import ProjectCards from '../components/ProjectCards2.vue';
+import ProjectCards from '../components/ProjectCards.vue';
 
 export default {
   name: 'Acebook',
