@@ -45,7 +45,7 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">Acebook</h3>
-              <div>
+              <div class="card_text">
                 A popular social media website, cloned. Built using Ruby on Rails.
               </div>
             </div>
@@ -95,5 +95,9 @@ export default {
 
 .card .card_image :hover {
   /* box-shadow: 3px 3px; */
+}
+
+.card_text {
+  word-break: normal;
 }
 </style>
