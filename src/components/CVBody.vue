@@ -43,18 +43,28 @@
             :color="job.color"
           >
             <v-card-title>{{ job.title }}</v-card-title>
-            <v-card-subtitle class="mx-0 white--text">{{ job.employer }}</v-card-subtitle>
-            <v-card-text :class='job.textcolor'><i>{{ job.dates }}</i></v-card-text>
+            <v-card-subtitle class="mx-0 white--text">{{
+              job.employer
+            }}</v-card-subtitle>
+            <v-card-text :class="job.textcolor"
+              ><i>{{ job.dates }}</i></v-card-text
+            >
             <v-divider class="inner-divider"></v-divider>
-            <v-card-text :class='job.textcolor'> • {{ job.bullet_one }} </v-card-text>
-            <v-card-text :class='job.textcolor'> • {{ job.bullet_two }} </v-card-text>
-            <v-card-text :class='job.textcolor'> • {{ job.bullet_three }} </v-card-text>
+            <v-card-text :class="job.textcolor">
+              • {{ job.bullet_one }}
+            </v-card-text>
+            <v-card-text :class="job.textcolor">
+              • {{ job.bullet_two }}
+            </v-card-text>
+            <v-card-text :class="job.textcolor">
+              • {{ job.bullet_three }}
+            </v-card-text>
           </v-card>
         </div>
       </v-column>
-      
+
       <v-divider vertical class="pa-md-0 mx-10"></v-divider>
-      
+
       <v-column>
         Skills and that
       </v-column>
@@ -96,7 +106,7 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three',
-        color: 'dark blue',
+        color: '#2D78C9',
         textcolor: 'white--text'
       },
       {
@@ -106,7 +116,17 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three',
-        color: 'light purple',
+        color: '#c8055c',
+        textcolor: 'white--text'
+      },
+      {
+        title: 'Parliamentary Assistant',
+        employer: 'House of Commons',
+        dates: 'TBC',
+        bullet_one: 'Text one',
+        bullet_two: 'Text two',
+        bullet_three: 'Text three',
+        color: '#749c63',
         textcolor: 'white--text'
       }
     ]
@@ -138,7 +158,7 @@ export default {
 }
 
 .job_card {
-  margin: 10px 10px 10px 10px;
+  margin: 15px 15px 15px 15px;
   padding: 10px;
   color: white;
 }
@@ -147,5 +167,4 @@ export default {
   border-color: rgba(228, 228, 228, 0.384);
   margin: 4px;
 }
-
 </style>
