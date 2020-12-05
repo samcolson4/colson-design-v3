@@ -8,7 +8,6 @@
 <script>
 import MainPage from '../components/MainPage.vue';
 import MainDetail from '../components/MainDetail.vue';
-
 export default {
   name: 'home',
   components: {

@@ -1,54 +1,54 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+// import Vue from 'vue';
+// import VueRouter from 'vue-router';
+// import Home from '../views/Home.vue';
 
-Vue.use(VueRouter);
+// Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/signposts-ar',
-    name: 'Signposts AR',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "signpostsAR" */ '../views/SignpostsAR.vue')
-  },
-  {
-    path: '/projects',
-    name: 'Projects',
-    component: () =>
-      import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
-  },
-  {
-    path: '/github',
-    beforeEnter() {
-      location.href = 'http://github.com/samcolson4';
-    }
-  },
-  {
-    path: '/linkedin',
-    beforeEnter() {
-      location.href = 'https://www.linkedin.com/in/samcolson/';
-    }
-  }
-  // {
-  //   path: '/acebook',
-  //   name: 'Acebook',
-  //   component: () =>
-  //     import(/* webpackChunkName: "projects" */ '../views/Acebook.vue')
-  // }
-];
+// const routes = [
+//   {
+//     path: '/',
+//     name: 'Home',
+//     component: Home
+//   },
+//   {
+//     path: '/signposts-ar',
+//     name: 'Signposts AR',
+//     // route level code-splitting
+//     // this generates a separate chunk (about.[hash].js) for this route
+//     // which is lazy-loaded when the route is visited.
+//     component: () =>
+//       import(/* webpackChunkName: "signpostsAR" */ '../views/SignpostsAR.vue')
+//   },
+//   {
+//     path: '/projects',
+//     name: 'Projects',
+//     component: () =>
+//       import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
+//   },
+//   {
+//     path: '/github',
+//     beforeEnter() {
+//       location.href = 'http://github.com/samcolson4';
+//     }
+//   },
+//   {
+//     path: '/linkedin',
+//     beforeEnter() {
+//       location.href = 'https://www.linkedin.com/in/samcolson/';
+//     }
+//   }
+//   // {
+//   //   path: '/acebook',
+//   //   name: 'Acebook',
+//   //   component: () =>
+//   //     import(/* webpackChunkName: "projects" */ '../views/Acebook.vue')
+//   // }
+// ];
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-});
+// const router = new VueRouter({
+//   mode: 'history',
+//   base: process.env.BASE_URL,
+//   routes
+// });
 
-export default router;
+// export default router;

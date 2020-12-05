@@ -54,14 +54,14 @@ export default {
         text: 'An iOS app, built using Swift and RealityKit.',
         img:
           'https://raw.githubusercontent.com/samcolson4/signposts-AR/main/screenshots/Savesign.png',
-        url: '/signposts-ar'
+        url: '/projects/signposts-AR/'
       },
       {
         title: 'Acebook',
         text:
           'A popular social media website, cloned. Built using Ruby on Rails.',
         img: 'https://i.imgur.com/xvvEZ1s.png',
-        url: '/acebook'
+        url: '/projects/acebook/'
       },
       {
         title: 'Colson Design',

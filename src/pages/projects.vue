@@ -8,7 +8,6 @@
 <script>
 import ProjectsMacro from '../components/ProjectsMacro.vue';
 import ProjectCards from '../components/ProjectCards.vue';
-
 export default {
   name: 'Projects',
   components: {
