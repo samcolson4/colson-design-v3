@@ -46,6 +46,12 @@ const routes = [
       import(
         /* webpackChunkName: "projects" */ '../views/projects/colson-design.vue'
       )
+  },
+  {
+    path: '/cv',
+    name: 'CV',
+    component: () =>
+      import(/* webpackChunkName: "cv" */ '../views/CV.vue')
   }
 ];
 
