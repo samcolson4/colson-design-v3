@@ -92,7 +92,7 @@ a {
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card_header {
