@@ -8,8 +8,7 @@
     <v-layout row wrap>
       <v-flex xs12 sm12 md4>
         <v-hover v-slot="{ hover }">
-          <v-card :elevation="hover ? 12 : 2"
-                :class="{ 'on-hover': hover }">
+          <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }">
             <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" height="500px">
               <v-container fill-height fluid>
                 <v-layout fill-height>
@@ -37,7 +36,11 @@
       <v-flex xs12 sm12 md4>
         <v-card>
           <a class="card" href="/acebook">
-            <v-img class="card_image" src="https://i.imgur.com/xvvEZ1s.png" height="500px">
+            <v-img
+              class="card_image"
+              src="https://i.imgur.com/xvvEZ1s.png"
+              height="500px"
+            >
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -53,7 +56,8 @@
             <div>
               <!-- <h3 class="headline mb-0">Acebook</h3> -->
               <div class="card_text">
-                A popular social media website, cloned. Built using Ruby on Rails.
+                A popular social media website, cloned. Built using Ruby on
+                Rails.
               </div>
             </div>
           </v-card-title>
@@ -67,7 +71,7 @@
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
                   <div class="card_header">
-                    <span class="headline white--text">Colson Design</span>                
+                    <span class="headline white--text">Colson Design</span>
                   </div>
                 </v-flex>
               </v-layout>

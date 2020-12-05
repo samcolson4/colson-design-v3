@@ -1,8 +1,8 @@
 <template>
   <span>
     <acebook-detail></acebook-detail>
-    <br>
-    <hr>
+    <br />
+    <hr />
     <project-cards></project-cards>
   </span>
 </template>

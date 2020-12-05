@@ -21,7 +21,7 @@
 <script>
 export default {
   name: 'footer',
-  links: [{ "Home": '/' }, { Projects: '/projects' }]
+  links: [{ Home: '/' }, { Projects: '/projects' }]
 };
 </script>
 

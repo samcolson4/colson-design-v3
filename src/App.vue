@@ -5,7 +5,7 @@
     <v-content transition="slide-x-transition">
       <router-view></router-view>
     </v-content>
-    <br><br><br>
+    <br /><br /><br />
     <Footer class="footer"></Footer>
   </v-app>
 </template>
