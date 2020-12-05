@@ -106,6 +106,6 @@ a:visited {
 }
 
 .footer_padding {
-  padding-top: 15em;
+  padding-top: 5em;
 }
 </style>
