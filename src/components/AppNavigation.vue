@@ -21,9 +21,7 @@ export default {
   name: 'AppNavigation',
   data() {
     return {
-      appTitle: 'Colson Design',
-      drawer: false,
-      items: [{ title: 'Home' }, { title: 'Projects' }]
+      appTitle: 'Colson Design'
     };
   }
 };

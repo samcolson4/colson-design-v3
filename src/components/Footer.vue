@@ -39,11 +39,11 @@ export default {
 </script>
 
 <style scoped>
-.footer {
+/* .footer {
   bottom: 0;
   min-width: 100%;
-  position: fixed;
-}
+  position: absolute;
+} */
 
 .f_name {
   margin-right: 2em;
