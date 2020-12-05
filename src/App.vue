@@ -5,7 +5,8 @@
     <v-content transition="slide-x-transition">
       <router-view></router-view>
     </v-content>
-    <Footer></Footer>
+    <br><br><br>
+    <Footer class="footer"></Footer>
   </v-app>
 </template>
 
@@ -22,4 +23,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.footer {
+  /* margin-top: 10em; */
+}
+</style>
