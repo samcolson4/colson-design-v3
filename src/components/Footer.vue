@@ -12,7 +12,9 @@
         <a :href="link.url">{{ link.title }}</a>
       </v-btn> -->
       <v-col class="blue-grey lighten-3 py-4 text-right white--text" cols="12">
-        <span class="f_name"><strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}</span>
+        <span class="f_name"
+          ><strong>© Sam Colson</strong> - {{ new Date().getFullYear() }}</span
+        >
       </v-col>
     </v-row>
   </v-footer>
@@ -22,7 +24,7 @@
 export default {
   name: 'footer',
   data: () => ({
-    links: [ 
+    links: [
       {
         title: 'Home',
         url: '/'
