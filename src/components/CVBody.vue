@@ -43,17 +43,21 @@
       <v-column>
 
       <div v-for="job in jobs" v-bind:key="job">
-          <v-card min-width="500px" max-width="500px" class="job_card">
-          <h2>{{job.title}}</h2>
-          <h3>{{job.employer}}</h3>
-          <h4><i>{{job.dates}}</i></h4>
-          <li>{{job.bullet_one}}</li>
-          <li>{{job.bullet_two}}</li>
-          <li>{{job.bullet_three}}</li>
+          <v-card min-width="500px" max-width="500px" class="job_card" elevation="2" outlined>
+          <v-card-title >{{job.title}}</v-card-title>
+          <v-card-subtitle class="mx-0">{{job.employer}}</v-card-subtitle>
+          <v-card-text><i>{{job.dates}}</i></v-card-text>
+          <v-divider class="mx-4"></v-divider>
+          <v-card-text> • {{job.bullet_one}} </v-card-text>
+          <v-card-text> • {{job.bullet_two}} </v-card-text>
+          <v-card-text> • {{job.bullet_three}} </v-card-text>
           </v-card>
       </div>
+      
       </v-column>
-
+      <v-divider
+        vertical class="pa-md-0 mx-10"
+      ></v-divider>
       <v-column>
       Skills and that
       </v-column>
@@ -79,14 +83,23 @@ export default {
       {
         title: 'Government Affairs Manager, EMEA',
         employer: 'Hilton',
-        dates: 'March 2020 - August 2020',
+        dates: 'May 2019 - March 2020',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three'
       },
        {
-        title: 'Freelancer - Public Affairs',
-        dates: 'March 2020 - August 2020',
+        title: 'Senior Campaigns Advisor',
+        employer: 'CBI',
+        dates: 'July 2018 - May 2019',
+        bullet_one: 'Text one',
+        bullet_two: 'Text two',
+        bullet_three: 'Text three'
+      },
+      {
+        title: 'Account Executive',
+        employer: 'Grayling',
+        dates: 'August 2016 - June 2018',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three'
