@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless fixed>
+  <v-footer padless class="footer">
     <v-row justify="center" no-gutters>
       <v-btn
         v-for="link in links"
@@ -25,4 +25,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.footer {
+  bottom: 0;
+  min-width: 100%;
+  position: fixed;
+}
+</style>

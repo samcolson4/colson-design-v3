@@ -28,10 +28,21 @@
       <v-flex>
         <div class="headline mt-3">Project Driver</div>
         <p class="subheading mt-3">
-          This is where some text will go about my projects.
+          This is where some text will go about my projects. During my time at
+          Hilton, I worked across disparate teams to meet the company’s
+          legislative objectives, aggregating expertise and knowledge to tackle
+          complex challenges. I want to bring this experience to my next role
+          and be a bridge between teams, looking at the big picture to ensure
+          the whole company succeeds. During my time at Hilton, I worked across
+          disparate teams to meet the company’s legislative objectives,
+          aggregating expertise and knowledge to tackle complex challenges. I
+          want to bring this experience to my next role and be a bridge between
+          teams, looking at the big picture to ensure the whole company
+          succeeds.
         </p>
       </v-flex>
     </v-layout>
+    <br /><br />
   </v-container>
 </template>
 

@@ -20,18 +20,15 @@
                     <v-img :src="item.img" height="500px">
                       <v-container fill-height fluid>
                         <v-layout fill-height>
-                          <v-flex xs12 align-end flexbox>
-                            <div class="card_header">
-                              <span class="headline white--text">{{
-                                item.title
-                              }}</span>
-                            </div>
-                          </v-flex>
+                          <v-flex xs12 align-end flexbox> </v-flex>
                         </v-layout>
                       </v-container>
                     </v-img>
                   </a>
                   <v-card-title primary-title>
+                    <div class="card_header">
+                      <span class="headline black--text">{{ item.title }}</span>
+                    </div>
                     <div class="card_text">
                       {{ item.text }}
                     </div>
@@ -43,6 +40,7 @@
         </v-row>
       </v-template>
     </div>
+    <br /><br />
   </v-container>
 </template>
 
@@ -96,7 +94,6 @@ a:visited {
 }
 
 .card_header {
-  background-color: #ff7043;
   padding: 3px;
   text-align: center;
 }
