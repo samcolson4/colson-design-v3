@@ -1,43 +1,48 @@
 <template>
-  <v-container grid-list-lg>
+  <v-container class="projects_page" align="center">
     <v-layout row>
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">
         My work
       </v-flex>
     </v-layout>
 
-    <v-template v-bind:key="item" v-for="(item, i) in items">
-      <v-row class="fill-height" align="center" justify="center">
-        <v-col :key="i" cols="3" md="4">
-          <v-hover v-slot="{ hover }">
-            <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }">
-              <a :href=item.url class="card">
-                <v-img :src="item.img" height="500px"> 
-                  <v-container fill-height fluid>
-                    <v-layout fill-height>
-                      <v-flex xs12 align-end flexbox>
-                        <div class="card_header">
-                          <span class="headline white--text">{{
-                            item.title
-                          }}</span>
-                        </div>
-                      </v-flex>
-                    </v-layout>
-                  </v-container>
-                </v-img>
-              </a>
-              <v-card-title primary-title>
-                <div>
-                  <div class="card_text">
-                    {{ item.text }}
-                  </div>
-                </div>
-              </v-card-title>
-            </v-card>
-          </v-hover>
-        </v-col>
-      </v-row>
-    </v-template>
+    <div>
+      <v-template>
+        <v-row class="fill-height" align="center" justify="center">
+          <div v-for="(item, i) in items" v-bind:key="item" class="card">
+            <v-col :key="i">
+              <v-hover v-slot="{ hover }">
+                <v-card
+                  :elevation="hover ? 12 : 2"
+                  :class="{ 'on-hover': hover }"
+                >
+                  <a :href="item.url">
+                    <v-img :src="item.img" height="500px">
+                      <v-container fill-height fluid>
+                        <v-layout fill-height>
+                          <v-flex xs12 align-end flexbox>
+                            <div class="card_header">
+                              <span class="headline white--text">{{
+                                item.title
+                              }}</span>
+                            </div>
+                          </v-flex>
+                        </v-layout>
+                      </v-container>
+                    </v-img>
+                  </a>
+                  <v-card-title primary-title>
+                    <div class="card_text">
+                      {{ item.text }}
+                    </div>
+                  </v-card-title>
+                </v-card>
+              </v-hover>
+            </v-col>
+          </div>
+        </v-row>
+      </v-template>
+    </div>
   </v-container>
 </template>
 
@@ -72,22 +77,28 @@ export default {
 </script>
 
 <style scoped>
+.projects_page {
+  max-width: 90%;
+}
+
 .card {
   text-decoration: none;
+  max-width: 20em;
+  min-width: 10em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 .card_header {
   background-color: #ff7043;
   padding: 3px;
   text-align: center;
-}
-
-.card_image {
-  /* border: 1px solid grey */
-}
-
-.card .card_image :hover {
-  /* box-shadow: 3px 3px; */
 }
 
 .card_text {
