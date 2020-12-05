@@ -31,8 +31,7 @@ const routes = [
   {
     path: '/projects/signposts-ar',
     name: 'Signposts AR',
-    component: () =>
-      import('../views/projects/SignpostsAR.vue')
+    component: () => import('../views/projects/SignpostsAR.vue')
   },
   {
     path: '/projects/acebook',
@@ -44,7 +43,9 @@ const routes = [
     path: '/projects/about-colson-design',
     name: 'Acebook',
     component: () =>
-      import(/* webpackChunkName: "projects" */ '../views/projects/colson-design.vue')
+      import(
+        /* webpackChunkName: "projects" */ '../views/projects/colson-design.vue'
+      )
   }
 ];
 

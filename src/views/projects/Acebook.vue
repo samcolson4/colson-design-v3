@@ -15,7 +15,7 @@ export default {
   name: 'Acebook',
   components: {
     ProjectCards,
-    AcebookDetail,
+    AcebookDetail
   }
 };
 </script>

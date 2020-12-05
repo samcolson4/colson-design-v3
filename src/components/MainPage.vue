@@ -1,5 +1,9 @@
 <template>
-  <v-parallax class="main-page" src="https://i.imgur.com/zbDuqun.jpg" alt="underwater">
+  <v-parallax
+    class="main-page"
+    src="https://i.imgur.com/zbDuqun.jpg"
+    alt="underwater"
+  >
     <v-container fluid fill-height>
       <v-layout justify-center align-center column pa-5>
         <div

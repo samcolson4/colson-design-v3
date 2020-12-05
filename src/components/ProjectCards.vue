@@ -1,9 +1,7 @@
 <template>
   <v-container class="projects_page" align="center">
     <v-layout row>
-      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">
-        My work
-      </v-flex>
+      <v-flex class="display-2 text-xs-center my-5">My Work</v-flex>
     </v-layout>
 
     <div>

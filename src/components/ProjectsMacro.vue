@@ -1,5 +1,9 @@
 <template>
-  <v-parallax src="https://i.imgur.com/oBMBsul.jpg" alt="sunset" class="projects-page">
+  <v-parallax
+    src="https://i.imgur.com/oBMBsul.jpg"
+    alt="sunset"
+    class="projects-page"
+  >
     <v-container fluid fill-height>
       <v-layout justify-center align-center column pa-5>
         <div
