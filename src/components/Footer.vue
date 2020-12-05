@@ -20,7 +20,8 @@
 
 <script>
 export default {
-  name: 'footer'
+  name: 'footer',
+  links: [{ "Home": '/' }, { Projects: '/projects' }]
 };
 </script>
 
