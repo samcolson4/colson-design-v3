@@ -38,17 +38,17 @@
             min-width="500px"
             max-width="500px"
             class="job_card"
-            elevation="2"
+            elevation="6"
             outlined
             :color="job.color"
           >
             <v-card-title>{{ job.title }}</v-card-title>
             <v-card-subtitle class="mx-0 white--text">{{ job.employer }}</v-card-subtitle>
-            <v-card-text class="white--text"><i>{{ job.dates }}</i></v-card-text>
-            <v-divider class="mx-4"></v-divider>
-            <v-card-text class="white--text"> • {{ job.bullet_one }} </v-card-text>
-            <v-card-text class="white--text"> • {{ job.bullet_two }} </v-card-text>
-            <v-card-text class="white--text"> • {{ job.bullet_three }} </v-card-text>
+            <v-card-text :class='job.textcolor'><i>{{ job.dates }}</i></v-card-text>
+            <v-divider class="inner-divider"></v-divider>
+            <v-card-text :class='job.textcolor'> • {{ job.bullet_one }} </v-card-text>
+            <v-card-text :class='job.textcolor'> • {{ job.bullet_two }} </v-card-text>
+            <v-card-text :class='job.textcolor'> • {{ job.bullet_three }} </v-card-text>
           </v-card>
         </div>
       </v-column>
@@ -76,6 +76,7 @@ export default {
         bullet_two: 'Text two',
         bullet_three: 'Text three',
         color: '#385F73',
+        textcolor: 'white--text'
       },
       {
         id: 5,
@@ -85,7 +86,8 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three',
-        color: 'black'
+        color: 'black',
+        textcolor: 'white--text'
       },
       {
         title: 'Senior Campaigns Advisor',
@@ -94,7 +96,8 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three',
-        color: 'dark blue'
+        color: 'dark blue',
+        textcolor: 'white--text'
       },
       {
         title: 'Account Executive',
@@ -103,7 +106,8 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three',
-        color: 'light purple'
+        color: 'light purple',
+        textcolor: 'white--text'
       }
     ]
   })
@@ -137,6 +141,11 @@ export default {
   margin: 10px 10px 10px 10px;
   padding: 10px;
   color: white;
+}
+
+.inner-divider {
+  border-color: rgba(228, 228, 228, 0.384);
+  margin: 4px;
 }
 
 </style>
