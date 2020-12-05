@@ -22,9 +22,7 @@
             <div>
               <h3 class="headline mb-0">Signposts AR</h3>
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                mauris felis, varius rutrum massa a, dignissim ornare dui. Cras
-                eget velit eu dui tristique lobortis sit amet vel tellus.
+                An iOS app, built using Swift and RealityKit.
               </div>
             </div>
           </v-card-title>
@@ -34,7 +32,7 @@
       <v-flex xs12 sm12 md4>
         <v-card>
           <a class="card" href="/acebook">
-            <v-img class="card_image" src="http://source.unsplash.com/6S27S6pZ6o0" height="500px">
+            <v-img class="card_image" src="https://i.imgur.com/xvvEZ1s.png" height="500px">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -48,9 +46,7 @@
             <div>
               <h3 class="headline mb-0">Acebook</h3>
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                mauris felis, varius rutrum massa a, dignissim ornare dui. Cras
-                eget velit eu dui tristique lobortis sit amet vel tellus.
+                A popular social media website, cloned. Built using Ruby on Rails.
               </div>
             </div>
           </v-card-title>
@@ -72,7 +68,7 @@
             <div>
               <h3 class="headline mb-0">Colson Design</h3>
               <div>
-                This website is built in Vue JS, using Vuetify. You can view the project's GitHub page here.
+                This website, built in Vue.JS.
               </div>
             </div>
           </v-card-title>
@@ -91,6 +87,10 @@ export default {
 <style scoped>
 .card {
   text-decoration: none;
+}
+
+.card_image {
+  border: 2px solid black
 }
 
 .card .card_image :hover {
