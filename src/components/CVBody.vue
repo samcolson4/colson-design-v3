@@ -40,15 +40,27 @@
     </v-row>
 
     <v-row>
+      <v-column>
+
       <div v-for="job in jobs" v-bind:key="job">
-        <v-column>
-          {{job.title}}
+          <v-card min-width="500px" max-width="500px" class="job_card">
+          <h2>{{job.title}}</h2>
+          <h3>{{job.employer}}</h3>
+          <h4><i>{{job.dates}}</i></h4>
           <li>{{job.bullet_one}}</li>
           <li>{{job.bullet_two}}</li>
           <li>{{job.bullet_three}}</li>
-        </v-column>
+          </v-card>
       </div>
+      </v-column>
+
+      <v-column>
+      Skills and that
+      </v-column>
+
+      
     </v-row>
+    <div class="footer_padding"></div>
   </v-container>
 </template>
 
@@ -58,7 +70,23 @@ export default {
   data: () => ({
   jobs: [
       {
-        title: 'Freelancer',
+        title: 'Freelancer - Public Affairs',
+        dates: 'March 2020 - August 2020',
+        bullet_one: 'Text one',
+        bullet_two: 'Text two',
+        bullet_three: 'Text three'
+      },
+      {
+        title: 'Government Affairs Manager, EMEA',
+        employer: 'Hilton',
+        dates: 'March 2020 - August 2020',
+        bullet_one: 'Text one',
+        bullet_two: 'Text two',
+        bullet_three: 'Text three'
+      },
+       {
+        title: 'Freelancer - Public Affairs',
+        dates: 'March 2020 - August 2020',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three'
@@ -85,6 +113,15 @@ export default {
 
 .cv_page {
   max-width: 90%;
+}
+
+.footer_padding {
+  padding-top: 5em;
+}
+
+.job_card {
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
 }
 
 </style>
