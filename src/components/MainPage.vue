@@ -22,6 +22,6 @@ export default {
   background: url('https://i.imgur.com/zbDuqun.jpg');
   background-size: cover;
   width: 100%;
-  height: 66%;
+  height: 66vh;
 }
 </style>
