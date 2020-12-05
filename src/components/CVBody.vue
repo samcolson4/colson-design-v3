@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="cv_page">
     <v-row>
       <v-column>
         <div class="image-cropper">
@@ -38,12 +38,33 @@
         </v-card>
       </v-column>
     </v-row>
+
+    <v-row>
+      <div v-for="job in jobs" v-bind:key="job">
+        <v-column>
+          {{job.title}}
+          <li>{{job.bullet_one}}</li>
+          <li>{{job.bullet_two}}</li>
+          <li>{{job.bullet_three}}</li>
+        </v-column>
+      </div>
+    </v-row>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: 'CVDetail'
+  name: 'CVDetail',
+  data: () => ({
+  jobs: [
+      {
+        title: 'Freelancer',
+        bullet_one: 'Text one',
+        bullet_two: 'Text two',
+        bullet_three: 'Text three'
+      },
+    ] 
+  })
 };
 </script>
 
@@ -60,6 +81,10 @@ export default {
 
 .column_padding {
   padding-left: 4%;
+}
+
+.cv_page {
+  max-width: 90%;
 }
 
 </style>
