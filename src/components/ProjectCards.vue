@@ -99,5 +99,7 @@ export default {
 
 .card_text {
   word-break: normal;
+  font-weight: 300;
+  font-size: 80%;
 }
 </style>
