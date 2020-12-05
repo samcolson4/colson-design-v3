@@ -54,20 +54,20 @@ export default {
         text: 'An iOS app, built using Swift and RealityKit.',
         img:
           'https://raw.githubusercontent.com/samcolson4/signposts-AR/main/screenshots/Savesign.png',
-        url: '/signposts-ar'
+        url: '/projects/signposts-ar'
       },
       {
         title: 'Acebook',
         text:
           'A popular social media website, cloned. Built using Ruby on Rails.',
         img: 'https://i.imgur.com/xvvEZ1s.png',
-        url: '/acebook'
+        url: '/projects/acebook'
       },
       {
         title: 'Colson Design',
         text: 'This website, built in Vue.JS and Vuetify.',
         img: 'https://i.imgur.com/xvvEZ1s.png',
-        url: '/about-colson-design'
+        url: '/projects/about-colson-design'
       }
     ]
   })

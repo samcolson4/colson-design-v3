@@ -11,15 +11,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/signposts-ar',
-    name: 'Signposts AR',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "signpostsAR" */ '../views/SignpostsAR.vue')
-  },
-  {
     path: '/projects',
     name: 'Projects',
     component: () =>
@@ -36,13 +27,25 @@ const routes = [
     beforeEnter() {
       location.href = 'https://www.linkedin.com/in/samcolson/';
     }
+  },
+  {
+    path: '/projects/signposts-ar',
+    name: 'Signposts AR',
+    component: () =>
+      import('../views/projects/SignpostsAR.vue')
+  },
+  {
+    path: '/projects/acebook',
+    name: 'Acebook',
+    component: () =>
+      import(/* webpackChunkName: "projects" */ '../views/projects/Acebook.vue')
+  },
+  {
+    path: '/projects/about-colson-design',
+    name: 'Acebook',
+    component: () =>
+      import(/* webpackChunkName: "projects" */ '../views/projects/colson-design.vue')
   }
-  // {
-  //   path: '/acebook',
-  //   name: 'Acebook',
-  //   component: () =>
-  //     import(/* webpackChunkName: "projects" */ '../views/Acebook.vue')
-  // }
 ];
 
 const router = new VueRouter({
