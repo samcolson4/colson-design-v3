@@ -1,48 +1,43 @@
 <template>
   <v-container>
-    <v-layout column>
-      <v-flex class="display-2 text-xs-center my-5">About me</v-flex>
-      <v-flex>
-        <div class="headline mt-3">Career Changer</div>
-        <p class="subheading mt-3">
-          I recently completed a three month Makers Bootcamp where I taught
-          myself Ruby, JavaScript and Swift by building a range of applications
-          and websites. In my previous roles, I always pushed myself to learn
-          more and to take ownership in as many areas as possible. I want to
-          bring this attitude and my experience from Makers to my next role,
-          building an outstanding product with clean, well-tested code, whilst
-          continuing to develop my own engineering skills.
-        </p>
-      </v-flex>
+    <v-row>
+      <v-column>
+        <div class="image-cropper">
+          <v-img src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4" 
+          max-height="250"
+          max-width="250"
+          ></v-img>
+        </div>
+      </v-column>
 
-      <v-flex>
-        <div class="headline mt-3">Team Player</div>
-        <p class="subheading mt-3">
-          During my time at Hilton, I worked across disparate teams to meet the
-          company’s legislative objectives, aggregating expertise and knowledge
-          to tackle complex challenges. I want to bring this experience to my
-          next role and be a bridge between teams, looking at the big picture to
-          ensure the whole company succeeds.
-        </p>
-      </v-flex>
-      <v-flex>
-        <div class="headline mt-3">Project Driver</div>
-        <p class="subheading mt-3">
-          This is where some text will go about my projects. During my time at
-          Hilton, I worked across disparate teams to meet the company’s
-          legislative objectives, aggregating expertise and knowledge to tackle
-          complex challenges. I want to bring this experience to my next role
-          and be a bridge between teams, looking at the big picture to ensure
-          the whole company succeeds. During my time at Hilton, I worked across
-          disparate teams to meet the company’s legislative objectives,
-          aggregating expertise and knowledge to tackle complex challenges. I
-          want to bring this experience to my next role and be a bridge between
-          teams, looking at the big picture to ensure the whole company
-          succeeds.
-        </p>
-      </v-flex>
-    </v-layout>
-    <br /><br />
+      <v-column class="column_padding"></v-column>
+
+      <v-column>
+        <v-card max-width="500px" min-width="500px">
+          <v-card-title>Contact</v-card-title>
+          <v-card-text>Text here</v-card-text>
+
+          <v-card-actions>
+            <v-btn
+              color="black"
+              text
+              @click="reserve"
+            >
+            Email
+            </v-btn>
+
+            <v-btn
+              color="black"
+              text
+              @click="goToGitHub"
+              >
+              GitHub
+            </v-btn>
+
+          </v-card-actions>
+        </v-card>
+      </v-column>
+    </v-row>
   </v-container>
 </template>
 
@@ -52,4 +47,19 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.image-cropper {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  /* border: 6px solid #43a047; */
+  border: 6px solid black;
+  border-radius: 50%;
+}
+
+.column_padding {
+  padding-left: 4%;
+}
+
+</style>
