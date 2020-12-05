@@ -36,6 +36,12 @@ const routes = [
     beforeEnter() {
       location.href = 'https://www.linkedin.com/in/samcolson/';
     }
+  },
+  {
+    path: '/acebook',
+    name: 'Acebook',
+    component: () =>
+      import(/* webpackChunkName: "projects" */ '../views/Acebook.vue')
   }
 ];
 
