@@ -3,9 +3,10 @@
     <v-row>
       <v-column>
         <div class="image-cropper">
-          <v-img src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4" 
-          max-height="250"
-          max-width="250"
+          <v-img
+            src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4"
+            max-height="250"
+            max-width="250"
           ></v-img>
         </div>
       </v-column>
@@ -18,22 +19,13 @@
           <v-card-text>Text here</v-card-text>
 
           <v-card-actions>
-            <v-btn
-              color="black"
-              text
-              @click="reserve"
-            >
-            Email
+            <v-btn color="black" text @click="reserve">
+              Email
             </v-btn>
 
-            <v-btn
-              color="black"
-              text
-              @click="goToGitHub"
-              >
+            <v-btn color="black" text @click="goToGitHub">
               GitHub
             </v-btn>
-
           </v-card-actions>
         </v-card>
       </v-column>
@@ -41,28 +33,30 @@
 
     <v-row>
       <v-column>
-
-      <div v-for="job in jobs" v-bind:key="job">
-          <v-card min-width="500px" max-width="500px" class="job_card" elevation="2" outlined>
-          <v-card-title >{{job.title}}</v-card-title>
-          <v-card-subtitle class="mx-0">{{job.employer}}</v-card-subtitle>
-          <v-card-text><i>{{job.dates}}</i></v-card-text>
-          <v-divider class="mx-4"></v-divider>
-          <v-card-text> • {{job.bullet_one}} </v-card-text>
-          <v-card-text> • {{job.bullet_two}} </v-card-text>
-          <v-card-text> • {{job.bullet_three}} </v-card-text>
+        <div v-for="job in jobs" v-bind:key="job">
+          <v-card
+            min-width="500px"
+            max-width="500px"
+            class="job_card"
+            elevation="2"
+            outlined
+          >
+            <v-card-title>{{ job.title }}</v-card-title>
+            <v-card-subtitle class="mx-0">{{ job.employer }}</v-card-subtitle>
+            <v-card-text
+              ><i>{{ job.dates }}</i></v-card-text
+            >
+            <v-divider class="mx-4"></v-divider>
+            <v-card-text> • {{ job.bullet_one }} </v-card-text>
+            <v-card-text> • {{ job.bullet_two }} </v-card-text>
+            <v-card-text> • {{ job.bullet_three }} </v-card-text>
           </v-card>
-      </div>
-      
+        </div>
       </v-column>
-      <v-divider
-        vertical class="pa-md-0 mx-10"
-      ></v-divider>
+      <v-divider vertical class="pa-md-0 mx-10"></v-divider>
       <v-column>
-      Skills and that
+        Skills and that
       </v-column>
-
-      
     </v-row>
     <div class="footer_padding"></div>
   </v-container>
@@ -72,7 +66,7 @@
 export default {
   name: 'CVDetail',
   data: () => ({
-  jobs: [
+    jobs: [
       {
         title: 'Freelancer - Public Affairs',
         dates: 'March 2020 - August 2020',
@@ -88,7 +82,7 @@ export default {
         bullet_two: 'Text two',
         bullet_three: 'Text three'
       },
-       {
+      {
         title: 'Senior Campaigns Advisor',
         employer: 'CBI',
         dates: 'July 2018 - May 2019',
@@ -103,8 +97,8 @@ export default {
         bullet_one: 'Text one',
         bullet_two: 'Text two',
         bullet_three: 'Text three'
-      },
-    ] 
+      }
+    ]
   })
 };
 </script>
@@ -136,5 +130,4 @@ export default {
   margin: 10px 10px 10px 10px;
   padding: 10px;
 }
-
 </style>

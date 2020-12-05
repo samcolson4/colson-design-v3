@@ -50,8 +50,7 @@ export default {
       {
         title: 'Signposts AR',
         text: 'An iOS app, built using Swift and RealityKit.',
-        img:
-          'https://i.imgur.com/87LgrIq.png',
+        img: 'https://i.imgur.com/87LgrIq.png',
         url: '/projects/signposts-ar'
       },
       {

@@ -50,8 +50,7 @@ const routes = [
   {
     path: '/cv',
     name: 'CV',
-    component: () =>
-      import(/* webpackChunkName: "cv" */ '../views/CV.vue')
+    component: () => import(/* webpackChunkName: "cv" */ '../views/CV.vue')
   }
 ];
 
