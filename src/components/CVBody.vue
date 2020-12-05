@@ -40,20 +40,21 @@
             class="job_card"
             elevation="2"
             outlined
+            :color="job.color"
           >
             <v-card-title>{{ job.title }}</v-card-title>
-            <v-card-subtitle class="mx-0">{{ job.employer }}</v-card-subtitle>
-            <v-card-text
-              ><i>{{ job.dates }}</i></v-card-text
-            >
+            <v-card-subtitle class="mx-0 white--text">{{ job.employer }}</v-card-subtitle>
+            <v-card-text class="white--text"><i>{{ job.dates }}</i></v-card-text>
             <v-divider class="mx-4"></v-divider>
-            <v-card-text> • {{ job.bullet_one }} </v-card-text>
-            <v-card-text> • {{ job.bullet_two }} </v-card-text>
-            <v-card-text> • {{ job.bullet_three }} </v-card-text>
+            <v-card-text class="white--text"> • {{ job.bullet_one }} </v-card-text>
+            <v-card-text class="white--text"> • {{ job.bullet_two }} </v-card-text>
+            <v-card-text class="white--text"> • {{ job.bullet_three }} </v-card-text>
           </v-card>
         </div>
       </v-column>
+      
       <v-divider vertical class="pa-md-0 mx-10"></v-divider>
+      
       <v-column>
         Skills and that
       </v-column>
@@ -68,19 +69,23 @@ export default {
   data: () => ({
     jobs: [
       {
+        id: 6,
         title: 'Freelancer - Public Affairs',
         dates: 'March 2020 - August 2020',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
-        bullet_three: 'Text three'
+        bullet_three: 'Text three',
+        color: '#385F73',
       },
       {
+        id: 5,
         title: 'Government Affairs Manager, EMEA',
         employer: 'Hilton',
         dates: 'May 2019 - March 2020',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
-        bullet_three: 'Text three'
+        bullet_three: 'Text three',
+        color: 'black'
       },
       {
         title: 'Senior Campaigns Advisor',
@@ -88,7 +93,8 @@ export default {
         dates: 'July 2018 - May 2019',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
-        bullet_three: 'Text three'
+        bullet_three: 'Text three',
+        color: 'dark blue'
       },
       {
         title: 'Account Executive',
@@ -96,7 +102,8 @@ export default {
         dates: 'August 2016 - June 2018',
         bullet_one: 'Text one',
         bullet_two: 'Text two',
-        bullet_three: 'Text three'
+        bullet_three: 'Text three',
+        color: 'light purple'
       }
     ]
   })
@@ -129,5 +136,7 @@ export default {
 .job_card {
   margin: 10px 10px 10px 10px;
   padding: 10px;
+  color: white;
 }
+
 </style>
