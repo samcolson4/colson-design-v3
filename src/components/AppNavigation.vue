@@ -1,17 +1,17 @@
 <template>
   <span>
-    <v-app-bar fixed app color="white">
+    <v-app-bar fixed app elevate-on-scroll color="white">
       <v-toolbar-side-icon class="hidden-md-and-up"> </v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title class="site-title"
         ><a id="app_title" href="/">{{ appTitle }}</a></v-toolbar-title
       >
       <v-spacer class="hidden-sm-and-down"></v-spacer>
-      <v-btn flat class="hidden-sm-and-down" to="/"> Home </v-btn>
-      <v-btn flat class="hidden-sm-and-down" to="/projects"> Projects </v-btn>
-      <v-btn flat class="hidden-sm-and-down" to="/cv"> CV </v-btn>
-
-      <v-spacer class="hidden-sm-and-down"></v-spacer>
+      <v-tabs>
+        <v-tab to="/">Home</v-tab>
+        <v-tab to="/projects">Projects</v-tab>
+        <v-tab to="/cv">CV</v-tab>
+      </v-tabs>
       <v-btn flat class="hidden-sm-and-down" to="/github"> GitHub </v-btn>
       <v-btn flat class="hidden-sm-and-down" to="/linkedin"> LinkedIn </v-btn>
     </v-app-bar>
@@ -33,6 +33,7 @@ export default {
 .site-title {
   color: black;
 }
+
 a {
   text-decoration: none;
   color: black;
