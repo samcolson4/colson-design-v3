@@ -1,6 +1,6 @@
 <template>
   <span>
-    <v-app-bar fixed app elevate-on-scroll color="white">
+    <v-app-bar fixed app elevate-on-scroll hide-on-scroll color="white">
       <v-toolbar-side-icon class="hidden-md-and-up"> </v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title class="site-title"
@@ -44,7 +44,4 @@ a:visited {
   color: black;
 }
 
-#app_title:hover {
-  text-shadow: 1px 1px orange;
-}
 </style>
