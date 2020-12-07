@@ -2,7 +2,7 @@
   <v-container class="cv_page">
     <v-row>
       <v-column>
-        <v-card min-width="40em">
+        <v-card class="mx-4">
           <div class="image-cropper">
             <v-img
               src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4"
@@ -75,8 +75,9 @@
             <v-card-title :class="era.textcolor">{{
               era.institution
             }}</v-card-title>
-            <v-card-text :class="era.textcolor"
-              ><i>{{ era.dates }}</i></v-card-text
+            <v-card-subtitle :class="era.textcolor">{{era.course}}</v-card-subtitle>
+            <v-card-subtitle :class="era.textcolor"
+              >{{ era.dates }}</v-card-subtitle
             >
             <v-divider class="inner-divider"></v-divider>
             <v-card-text :class="era.textcolor">
@@ -90,6 +91,9 @@
             </v-card-text>
           </v-card>
         </div>
+
+        <v-flex class="display-1 text-center my-5">Skills</v-flex>
+
       </v-column>
     </v-row>
     <div class="footer_padding"></div>
