@@ -11,9 +11,12 @@
         @mouseover="active = true"
         @mouseleave="active = false"
         >GitHub<span v-if="active"
-          ><v-img src="../assets/link_arrow.png" max-width="10px"></v-img></span
-      ></v-tab>
-
+          ><v-img src="../assets/link_arrow.png" max-width="10px"></v-img
+        ></span>
+        <span v-if="!active"
+          ><v-img src="../assets/white_box.png" max-width="10px"></v-img
+        ></span>
+      </v-tab>
       <v-tab
         to="/linkedin"
         target="_blank"
@@ -21,7 +24,10 @@
         @mouseleave="l_active = false"
         >LinkedIn<span v-if="l_active"
           ><v-img src="../assets/link_arrow.png" max-width="10px"></v-img></span
-      ></v-tab>
+        ><span v-if="!l_active"
+          ><v-img src="../assets/white_box.png" max-width="10px"></v-img
+        ></span>
+      </v-tab>
     </v-tabs>
   </v-app-bar>
 </template>

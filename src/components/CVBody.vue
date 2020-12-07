@@ -63,7 +63,7 @@
           </div>
         </v-column>
 
-        <v-divider vertical class="pa-md-0 mx-10"></v-divider>
+        <v-divider vertical class="pa-md-0 mx-5"></v-divider>
 
         <v-column>
           <v-flex class="display-1 text-center my-5">Education</v-flex>
@@ -126,7 +126,6 @@
               <v-card-subtitle>{{ hobby.description }}</v-card-subtitle>
             </v-card>
           </div>
-
         </v-column>
       </v-row>
       <div class="footer_padding"></div>
