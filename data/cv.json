@@ -8,7 +8,7 @@
       "Supporting new business development, including creating pitch decks.",
     "bullet_three":
       "During this period, I worked with my previous employer, Grayling.",
-    "color": "#385F73",
+    "color": "orange lighten-2",
     "textcolor": "white--text"
   },
   {
@@ -47,17 +47,17 @@
       "Monitoring both parliament and the media for sector developments on behalf of a number of clients across EMEA.",
     "bullet_three":
       "I was the winner alongside two colleagues of the 2017 Grayling 'Creating Advantage' awards, a global internal competition assessing who has best delivered for clients in the business",
-    "color": "#c8055c",
+    "color": "pink",
     "textcolor": "white--text"
   },
   {
     "title": "Parliamentary Assistant",
     "employer": "House of Commons",
-    "dates": "TBC",
-    "bullet_one": "",
-    "bullet_two": "",
-    "bullet_three": "",
-    "color": "#749c63",
+    "dates": "October 2014 - May 2016",
+    "bullet_one": "Producing press releases detailing events and meetings attended by Mr Stride to increase his public profile.",
+    "bullet_two": "Liaising with journalists and editors to provide the best coverage in several newspapers, magazines and radio stations.",
+    "bullet_three": "Preparing briefing papers on a wide range of topical issues.",
+    "color": "green darken-3",
     "textcolor": "white--text"
   }
 ]
