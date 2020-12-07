@@ -148,13 +148,6 @@ export default {
   padding-left: 4%;
 }
 
-/* .cv_page_div {
-  width: 90%;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .footer_padding {
   padding-top: 5em;
 }
