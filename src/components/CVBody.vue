@@ -17,20 +17,7 @@
 
           <v-column>
             <v-card-text
-              >I decided to change careers and become a developer to be part of
-              a team building something new, shaping a product that makes a
-              genuine difference to peoples' lives.
-            </v-card-text>
-
-            <v-card-text>
-              I recently completed a three month Makers Bootcamp where I taught
-              myself Ruby, JavaScript and Swift by building a range of
-              applications and websites. In my previous roles, I always pushed
-              myself to learn more and to take ownership in as many areas as
-              possible. I want to bring this attitude and my experience from
-              Makers to my next role, building an outstanding product with
-              clean, well-tested code, whilst continuing to develop my own
-              engineering skills.
+              >I recently completed a three month Makers Bootcamp where I taught myself Ruby, JavaScript and Swift by building a range of applications and websites. In my previous roles, I always pushed myself to learn more and to take ownership in as many areas as possible. I want to bring this attitude and my experience from Makers to my next role, building an outstanding product with clean, well-tested code, whilst continuing to develop my own engineering skills.
             </v-card-text>
           </v-column>
         </v-card>
@@ -102,6 +89,35 @@
           </div>
 
           <v-flex class="display-1 text-center my-5">Skills</v-flex>
+
+          <div v-for="era in education" v-bind:key="era">
+            <v-card
+              min-width="500px"
+              max-width="500px"
+              class="job_card"
+              elevation="6"
+              outlined
+              :color="era.color"
+            >
+              <v-card-title :class="era.textcolor">{{
+                era.institution
+              }}</v-card-title>
+              <v-card-subtitle :class="era.textcolor"
+                ><strong>{{ era.course }} </strong>|
+                {{ era.dates }}</v-card-subtitle
+              >
+              <v-divider class="inner-divider"></v-divider>
+              <v-card-text :class="era.textcolor" class="my-0">
+                {{ era.bullet_one }}
+              </v-card-text>
+              <v-card-text :class="era.textcolor" class="my-0">
+                {{ era.bullet_two }}
+              </v-card-text>
+              <v-card-text :class="era.textcolor" class="my-0">
+                {{ era.bullet_three }}
+              </v-card-text>
+            </v-card>
+          </div>
         </v-column>
       </v-row>
       <div class="footer_padding"></div>

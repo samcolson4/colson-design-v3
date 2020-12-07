@@ -1,0 +1,41 @@
+[
+  {
+    "institution": "Makers",
+    "course": "Coding Bootcamp",
+    "dates": "August 2020 - November 2020",
+    "bullet_one":
+      "Makers is a coding bootcamp, designed to support career switchers with some prior knowledge of programming to become job-ready junior developers.",
+    "bullet_two":
+      "During this course, I used TDD and Agile/XP.",
+    "bullet_three":
+      "I also taught myself Ruby, JavaScript and Swift.",
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
+  },
+  {
+    "institution": "University of Bath",
+    "course": "Politics and International Relations",
+    "dates": "September 2013 - June 2016",
+    "bullet_one":
+      "",
+    "bullet_two":
+      "",
+    "bullet_three":
+      "",
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
+  },
+  {
+    "institution": "Exeter School",
+    "course": "GCSEs & A Levels",
+    "dates": "September 2005 - July 2012",
+    "bullet_one":
+      "• A Levels: Politics (A), Economics (B), Classical Civilizations (B)",
+    "bullet_two":
+      "• AS Levels: English (A)",
+    "bullet_three":
+      "• GCSEs: 6 * As, 4 *Bs",
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
+  }
+]
