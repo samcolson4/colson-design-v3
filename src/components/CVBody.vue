@@ -79,7 +79,6 @@ export default {
   data: () => ({
     jobs: [
       {
-        id: 6,
         title: 'Freelancer - Public Affairs',
         dates: 'March 2020 - August 2020',
         bullet_one:
@@ -92,7 +91,6 @@ export default {
         textcolor: 'white--text'
       },
       {
-        id: 5,
         title: 'Government Affairs Manager, EMEA',
         employer: 'Hilton',
         dates: 'May 2019 - March 2020',
