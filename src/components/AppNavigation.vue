@@ -2,16 +2,17 @@
   <span>
     <v-app-bar fixed app elevate-on-scroll hide-on-scroll color="white">
       <v-toolbar-side-icon class="hidden-md-and-up"> </v-toolbar-side-icon>
-      <v-spacer class="hidden-md-and-up"></v-spacer>
-      <v-toolbar-title class="site-title"
-        ><a id="app_title" href="/">{{ appTitle }}</a></v-toolbar-title
-      >
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-tabs>
         <v-tab to="/">Home</v-tab>
         <v-tab to="/projects">Projects</v-tab>
         <v-tab to="/cv">CV</v-tab>
       </v-tabs>
+            
+      <v-toolbar-title>
+      <a id="app_title" href="/">{{ appTitle }}</a>
+      </v-toolbar-title>
+   
       <v-btn flat class="hidden-sm-and-down" to="/github"> GitHub </v-btn>
       <v-btn flat class="hidden-sm-and-down" to="/linkedin"> LinkedIn </v-btn>
     </v-app-bar>
@@ -30,9 +31,6 @@ export default {
 </script>
 
 <style scoped>
-.site-title {
-  color: black;
-}
 
 a {
   text-decoration: none;
