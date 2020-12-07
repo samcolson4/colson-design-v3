@@ -42,7 +42,9 @@
               outlined
               :color="job.color"
             >
-              <v-card-title>{{ job.title }}</v-card-title>
+              <v-card-title :class="job.textcolor">{{
+                job.title
+              }}</v-card-title>
               <v-card-subtitle class="mx-0 white--text"
                 ><strong>{{ job.employer }}</strong> |
                 {{ job.dates }}</v-card-subtitle
@@ -97,32 +99,16 @@
 
           <v-flex class="display-1 text-center my-5">Skills</v-flex>
 
-          <div v-for="era in education" v-bind:key="era">
+          <div v-for="skill in skills" v-bind:key="skill">
             <v-card
               min-width="500px"
               max-width="500px"
               class="job_card"
               elevation="6"
               outlined
-              :color="era.color"
             >
-              <v-card-title :class="era.textcolor">{{
-                era.institution
-              }}</v-card-title>
-              <v-card-subtitle :class="era.textcolor"
-                ><strong>{{ era.course }} </strong>|
-                {{ era.dates }}</v-card-subtitle
-              >
-              <v-divider class="inner-divider"></v-divider>
-              <v-card-text :class="era.textcolor" class="my-0">
-                {{ era.bullet_one }}
-              </v-card-text>
-              <v-card-text :class="era.textcolor" class="my-0">
-                {{ era.bullet_two }}
-              </v-card-text>
-              <v-card-text :class="era.textcolor" class="my-0">
-                {{ era.bullet_three }}
-              </v-card-text>
+              <v-card-title class="black--text">{{ skill.title }}</v-card-title>
+              <v-card-subtitle>{{ skill.description }}</v-card-subtitle>
             </v-card>
           </div>
         </v-column>
@@ -135,12 +121,14 @@
 <script>
 import jobs from '../../data/cv.json';
 import education from '../../data/education.json';
+import skills from '../../data/skills.json';
 export default {
   name: 'CVDetail',
   data() {
     return {
       jobs: jobs,
-      education: education
+      education: education,
+      skills: skills
     };
   }
 };
@@ -174,7 +162,6 @@ export default {
 .job_card {
   margin: 15px 15px 15px 15px;
   padding: 10px;
-  color: white;
 }
 
 .inner-divider {

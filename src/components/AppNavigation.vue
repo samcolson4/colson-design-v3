@@ -23,7 +23,6 @@
           ><v-img src="../assets/link_arrow.png" max-width="10px"></v-img></span
       ></v-tab>
     </v-tabs>
-
   </v-app-bar>
 </template>
 
