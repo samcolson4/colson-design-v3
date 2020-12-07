@@ -97,7 +97,7 @@
             </v-card>
           </div>
 
-          <v-flex class="display-1 text-center my-5">Skills & Interests</v-flex>
+          <v-flex class="display-1 text-center my-5">Skills</v-flex>
 
           <div v-for="skill in skills" v-bind:key="skill">
             <v-card
@@ -111,6 +111,22 @@
               <v-card-subtitle>{{ skill.description }}</v-card-subtitle>
             </v-card>
           </div>
+
+          <v-flex class="display-1 text-center my-5">Hobbies</v-flex>
+
+          <div v-for="hobby in hobbies" v-bind:key="hobby">
+            <v-card
+              min-width="500px"
+              max-width="500px"
+              class="job_card"
+              elevation="6"
+              outlined
+            >
+              <v-card-title class="black--text">{{ hobby.title }}</v-card-title>
+              <v-card-subtitle>{{ hobby.description }}</v-card-subtitle>
+            </v-card>
+          </div>
+
         </v-column>
       </v-row>
       <div class="footer_padding"></div>
@@ -122,13 +138,15 @@
 import jobs from '../../data/cv.json';
 import education from '../../data/education.json';
 import skills from '../../data/skills.json';
+import hobbies from '../../data/hobbies.json';
 export default {
   name: 'CVDetail',
   data() {
     return {
       jobs: jobs,
       education: education,
-      skills: skills
+      skills: skills,
+      hobbies: hobbies
     };
   }
 };
