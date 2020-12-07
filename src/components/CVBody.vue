@@ -97,7 +97,7 @@
             </v-card>
           </div>
 
-          <v-flex class="display-1 text-center my-5">Skills</v-flex>
+          <v-flex class="display-1 text-center my-5">Skills & Interests</v-flex>
 
           <div v-for="skill in skills" v-bind:key="skill">
             <v-card
