@@ -1,8 +1,8 @@
 <template>
   <v-container class="cv_page">
     <v-row>
-      <v-column>
-        <v-card class="mx-4">
+      <v-card class="mx-4">
+        <v-column>
           <div class="image-cropper">
             <v-img
               src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4"
@@ -10,19 +10,29 @@
               max-width="250"
             ></v-img>
           </div>
+        </v-column>
 
-          <v-column class="column_padding"></v-column>
+        <!-- <v-divider vertical></v-divider> -->
 
-          <v-column>
-            <v-card-text
-              >Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt, doloremque. Alias culpa, est eum non placeat veniam
-              neque rem possimus nihil ratione corrupti suscipit cupiditate
-              numquam iusto, aspernatur perferendis iste?
-            </v-card-text>
-          </v-column>
-        </v-card>
-      </v-column>
+        <v-column>
+          <v-card-text
+            >I decided to change careers and become a developer to be part of a
+            team building something new, shaping a product that makes a genuine
+            difference to peoples' lives.
+          </v-card-text>
+
+          <v-card-text>
+            I recently completed a three month Makers Bootcamp where I taught
+            myself Ruby, JavaScript and Swift by building a range of
+            applications and websites. In my previous roles, I always pushed
+            myself to learn more and to take ownership in as many areas as
+            possible. I want to bring this attitude and my experience from
+            Makers to my next role, building an outstanding product with clean,
+            well-tested code, whilst continuing to develop my own engineering
+            skills.
+          </v-card-text>
+        </v-column>
+      </v-card>
     </v-row>
 
     <v-row>
@@ -38,12 +48,12 @@
             :color="job.color"
           >
             <v-card-title>{{ job.title }}</v-card-title>
-            <v-card-subtitle class="mx-0 white--text">{{
+            <v-card-subtitle class="mx-0 white--text"><strong>{{
               job.employer
-            }}</v-card-subtitle>
-            <v-card-text :class="job.textcolor"
+            }}</strong> | {{job.dates}}</v-card-subtitle>
+            <!-- <v-card-text :class="job.textcolor"
               ><i>{{ job.dates }}</i></v-card-text
-            >
+            > -->
             <v-divider class="inner-divider"></v-divider>
             <v-card-text :class="job.textcolor">
               • {{ job.bullet_one }}
@@ -75,25 +85,23 @@
             <v-card-title :class="era.textcolor">{{
               era.institution
             }}</v-card-title>
-            <v-card-subtitle :class="era.textcolor">{{era.course}}</v-card-subtitle>
             <v-card-subtitle :class="era.textcolor"
-              >{{ era.dates }}</v-card-subtitle
+              ><strong>{{ era.course }} </strong>| {{ era.dates }}</v-card-subtitle
             >
             <v-divider class="inner-divider"></v-divider>
-            <v-card-text :class="era.textcolor">
+            <v-card-text :class="era.textcolor" class="my-0">
               {{ era.bullet_one }}
             </v-card-text>
-            <v-card-text :class="era.textcolor">
+            <v-card-text :class="era.textcolor" class="my-0">
               {{ era.bullet_two }}
             </v-card-text>
-            <v-card-text :class="era.textcolor">
+            <v-card-text :class="era.textcolor" class="my-0">
               {{ era.bullet_three }}
             </v-card-text>
           </v-card>
         </div>
 
         <v-flex class="display-1 text-center my-5">Skills</v-flex>
-
       </v-column>
     </v-row>
     <div class="footer_padding"></div>
