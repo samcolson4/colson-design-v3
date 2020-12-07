@@ -1,0 +1,14 @@
+[
+  {
+    "institution": "Makers",
+    "dates": "August 2020 - November 2020",
+    "bullet_one":
+      "Makers is a coding bootcamp, designed to support career switchers with some prior knowledge of programming to become job-ready junior developers.",
+    "bullet_two":
+      "During this course, I used TDD and Agile/XP.",
+    "bullet_three":
+      "I also taught myself Ruby, JavaScript and Swift.",
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
+  }
+]

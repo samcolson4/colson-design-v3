@@ -1,7 +1,6 @@
 <template>
   <v-footer padless class="footer">
     <v-row no-gutters>
-
       <v-col class="blue-grey lighten-3 py-4 white--text" cols="12">
         <span class="site_title text-left">Colson Design - </span>
         <span class="f_name text-right">
@@ -14,7 +13,7 @@
 
 <script>
 export default {
-  name: 'footer',
+  name: 'footer'
 };
 </script>
 
