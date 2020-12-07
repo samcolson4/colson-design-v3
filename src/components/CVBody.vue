@@ -82,9 +82,12 @@ export default {
         id: 6,
         title: 'Freelancer - Public Affairs',
         dates: 'March 2020 - August 2020',
-        bullet_one: 'Utilising my experience working in-house and for a trade association to support the implementation of public affairs strategies across a broad range of sectors.',
-        bullet_two: 'Supporting new business development, including creating pitch decks.',
-        bullet_three: 'During this period, I worked with my previous employer, Grayling.',
+        bullet_one:
+          'Utilising my experience working in-house and for a trade association to support the implementation of public affairs strategies across a broad range of sectors.',
+        bullet_two:
+          'Supporting new business development, including creating pitch decks.',
+        bullet_three:
+          'During this period, I worked with my previous employer, Grayling.',
         color: '#385F73',
         textcolor: 'white--text'
       },
@@ -93,9 +96,12 @@ export default {
         title: 'Government Affairs Manager, EMEA',
         employer: 'Hilton',
         dates: 'May 2019 - March 2020',
-        bullet_one: 'Developing EMEA-wide lobbying activity, with a focus on Westminster, the Scottish Government, and the EU.',
-        bullet_two: 'Supporting Hilton executives across EMEA to ensure that policy challenges are communicated with relevant stakeholders.',
-        bullet_three: 'Building coalitions with trade associations in the UK (including London First, the CBI and UKHospitality) and across EMEA.',
+        bullet_one:
+          'Developing EMEA-wide lobbying activity, with a focus on Westminster, the Scottish Government, and the EU.',
+        bullet_two:
+          'Supporting Hilton executives across EMEA to ensure that policy challenges are communicated with relevant stakeholders.',
+        bullet_three:
+          'Building coalitions with trade associations in the UK (including London First, the CBI and UKHospitality) and across EMEA.',
         color: 'black',
         textcolor: 'white--text'
       },
@@ -103,9 +109,12 @@ export default {
         title: 'Senior Campaigns Advisor',
         employer: 'CBI',
         dates: 'July 2018 - May 2019',
-        bullet_one: 'Text one',
-        bullet_two: 'Text two',
-        bullet_three: 'Text three',
+        bullet_one:
+          'Providing political intelligence and insight both internally within the CBI and externally for the membership.',
+        bullet_two:
+          'Leading on the development and implementation of an internal stakeholder management database.',
+        bullet_three:
+          'Acting as the Secretariat for the CBI’s Under 35 Committee. This role includes writing briefings in collaboration with a number of teams, planning events and meetings, and publicising the work of the committee.',
         color: '#2D78C9',
         textcolor: 'white--text'
       },
@@ -113,9 +122,12 @@ export default {
         title: 'Account Executive',
         employer: 'Grayling',
         dates: 'August 2016 - June 2018',
-        bullet_one: 'Text one',
-        bullet_two: 'Text two',
-        bullet_three: 'Text three',
+        bullet_one:
+          'Organising engagement programmes and events for a number of companies, including at party conferences.',
+        bullet_two:
+          'Monitoring both parliament and the media for sector developments on behalf of a number of clients across EMEA.',
+        bullet_three:
+          "I was the winner alongside two colleagues of the 2017 Grayling 'Creating Advantage' awards, a global internal competition assessing who has best delivered for clients in the business",
         color: '#c8055c',
         textcolor: 'white--text'
       },
@@ -123,9 +135,9 @@ export default {
         title: 'Parliamentary Assistant',
         employer: 'House of Commons',
         dates: 'TBC',
-        bullet_one: 'Text one',
-        bullet_two: 'Text two',
-        bullet_three: 'Text three',
+        bullet_one: '',
+        bullet_two: '',
+        bullet_three: '',
         color: '#749c63',
         textcolor: 'white--text'
       }
