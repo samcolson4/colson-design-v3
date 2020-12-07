@@ -24,6 +24,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## To Do
-- Fix nav bar to make it look better
 - Finish CV
-- Add material design colours
