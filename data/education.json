@@ -22,8 +22,8 @@
       "",
     "bullet_three":
       "",
-    "color": "blue-grey",
-    "textcolor": "white--text"
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
   },
   {
     "institution": "Exeter School",
@@ -35,7 +35,7 @@
       "• AS Levels: English (A)",
     "bullet_three":
       "• GCSEs: 6 * As, 4 *Bs",
-    "color": "pink darken-4",
-    "textcolor": "white--text"
+    "color": "grey lighten-4",
+    "textcolor": "black--text"
   }
 ]
