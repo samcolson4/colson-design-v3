@@ -4,9 +4,7 @@
       <v-tab to="/">Home</v-tab>
       <v-tab to="/projects">Projects</v-tab>
       <v-tab to="/cv">CV</v-tab>
-      <!-- </v-tabs>
 
-    <v-tabs> -->
       <v-tab
         to="/github"
         target="_blank"
@@ -26,8 +24,6 @@
       ></v-tab>
     </v-tabs>
 
-    <!-- <v-btn flat class="hidden-sm-and-down" to="/github"> GitHub </v-btn>
-    <v-btn flat class="hidden-sm-and-down" to="/linkedin"> LinkedIn </v-btn> -->
   </v-app-bar>
 </template>
 
