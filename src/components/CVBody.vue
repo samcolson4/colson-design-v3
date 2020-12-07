@@ -17,7 +17,14 @@
 
           <v-column>
             <v-card-text
-              >I recently completed a three month Makers Bootcamp where I taught myself Ruby, JavaScript and Swift by building a range of applications and websites. In my previous roles, I always pushed myself to learn more and to take ownership in as many areas as possible. I want to bring this attitude and my experience from Makers to my next role, building an outstanding product with clean, well-tested code, whilst continuing to develop my own engineering skills.
+              >I recently completed a three month Makers Bootcamp where I taught
+              myself Ruby, JavaScript and Swift by building a range of
+              applications and websites. In my previous roles, I always pushed
+              myself to learn more and to take ownership in as many areas as
+              possible. I want to bring this attitude and my experience from
+              Makers to my next role, building an outstanding product with
+              clean, well-tested code, whilst continuing to develop my own
+              engineering skills.
             </v-card-text>
           </v-column>
         </v-card>
