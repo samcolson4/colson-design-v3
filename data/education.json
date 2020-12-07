@@ -14,15 +14,28 @@
   },
   {
     "institution": "University of Bath",
-    "course": "Politics and International Relations",
+    "course": "BSc. Politics and International Relations (2.1)",
     "dates": "September 2013 - June 2016",
     "bullet_one":
       "",
     "bullet_two":
-      "During this course, I used TDD and Agile/XP.",
+      "",
     "bullet_three":
-      "I also taught myself Ruby, JavaScript and Swift.",
+      "",
     "color": "blue-grey",
+    "textcolor": "white--text"
+  },
+  {
+    "institution": "Exeter School",
+    "course": "GCSEs & A Levels",
+    "dates": "September 2005 - July 2012",
+    "bullet_one":
+      "• A Levels: Politics (A), Economics (B), Classical Civilizations (B)",
+    "bullet_two":
+      "• AS Levels: English (A)",
+    "bullet_three":
+      "• GCSEs: 6 * As, 4 *Bs",
+    "color": "pink darken-4",
     "textcolor": "white--text"
   }
 ]
