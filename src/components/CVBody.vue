@@ -91,7 +91,6 @@ export default {
   height: 250px;
   position: relative;
   overflow: hidden;
-  /* border: 6px solid #43a047; */
   border: 6px solid black;
   border-radius: 50%;
 }
