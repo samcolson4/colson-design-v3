@@ -48,12 +48,10 @@
             :color="job.color"
           >
             <v-card-title>{{ job.title }}</v-card-title>
-            <v-card-subtitle class="mx-0 white--text"><strong>{{
-              job.employer
-            }}</strong> | {{job.dates}}</v-card-subtitle>
-            <!-- <v-card-text :class="job.textcolor"
-              ><i>{{ job.dates }}</i></v-card-text
-            > -->
+            <v-card-subtitle class="mx-0 white--text"
+              ><strong>{{ job.employer }}</strong> |
+              {{ job.dates }}</v-card-subtitle
+            >
             <v-divider class="inner-divider"></v-divider>
             <v-card-text :class="job.textcolor">
               • {{ job.bullet_one }}
@@ -86,7 +84,8 @@
               era.institution
             }}</v-card-title>
             <v-card-subtitle :class="era.textcolor"
-              ><strong>{{ era.course }} </strong>| {{ era.dates }}</v-card-subtitle
+              ><strong>{{ era.course }} </strong>|
+              {{ era.dates }}</v-card-subtitle
             >
             <v-divider class="inner-divider"></v-divider>
             <v-card-text :class="era.textcolor" class="my-0">
