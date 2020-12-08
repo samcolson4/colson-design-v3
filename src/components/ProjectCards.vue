@@ -13,9 +13,9 @@
                 <v-card
                   :elevation="hover ? 12 : 2"
                   :class="{ 'on-hover': hover }"
-                  min-width="350"
-                  max-width="350"
-                  min-height="500"
+                  min-width="15em"
+                  max-width="22em"
+                  min-height="38em"
                 >
                   <a :href="item.url">
                     <v-img :src="item.img" height="500px">
