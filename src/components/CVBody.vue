@@ -11,9 +11,6 @@
                 max-width="250"
               ></v-img>
             </div>
-          <!-- </v-column> -->
-
-          <!-- <v-column> -->
             <v-card-text
               >I recently completed a three month Makers Bootcamp where I taught
               myself Ruby, JavaScript and Swift by building a range of

@@ -30,7 +30,11 @@
                   <v-card-title primary-title>
                     <span class="headline black--text">{{ item.title }}</span>
                   </v-card-title>
-                  <v-card-subtitle><strong>Technologies: {{ item.technologies }}</strong></v-card-subtitle>
+                  <v-card-subtitle
+                    ><strong
+                      >Technologies: {{ item.technologies }}</strong
+                    ></v-card-subtitle
+                  >
                   <v-card-text>{{ item.text }}</v-card-text>
                 </v-card>
               </v-hover>
