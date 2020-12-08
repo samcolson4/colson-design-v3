@@ -59,8 +59,9 @@
           </div>
         </v-column>
 
+        <v-column>
         <v-divider vertical class="pa-md-0 mx-5"></v-divider>
-
+        </v-column>
         <v-column>
           <v-flex class="display-1 text-center my-5">Education</v-flex>
 
@@ -172,6 +173,6 @@ export default {
 
 .inner-divider {
   border-color: rgba(228, 228, 228, 0.384);
-  margin: 4px;
+  margin: 1em;
 }
 </style>
