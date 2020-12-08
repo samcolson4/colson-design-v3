@@ -6,13 +6,16 @@
 
     <div>
       <v-template>
-        <v-row class="fill-height" id="row" align="center" justify="center">
-          <div v-for="(item, i) in items" v-bind:key="item" class="card">
+        <v-row class="fill-height" id="row" justify="center">
+          <div v-for="(item, i) in items" v-bind:key="item">
             <v-col :key="i">
               <v-hover v-slot="{ hover }">
                 <v-card
                   :elevation="hover ? 12 : 2"
                   :class="{ 'on-hover': hover }"
+                  min-width="350"
+                  max-width="350"
+                  min-height="500"
                 >
                   <a :href="item.url">
                     <v-img :src="item.img" height="500px">
@@ -24,13 +27,10 @@
                     </v-img>
                   </a>
                   <v-card-title primary-title>
-                    <div class="card_header">
                       <span class="headline black--text">{{ item.title }}</span>
-                    </div>
-                    <div class="card_text">
-                      {{ item.text }}
-                    </div>
                   </v-card-title>
+                  <v-card-subtitle>{{ item.text }}</v-card-subtitle>
+
                 </v-card>
               </v-hover>
             </v-col>
@@ -76,35 +76,8 @@ export default {
   max-width: 90%;
 }
 
-#row {
-  min-height: 500px;
-}
-
-.card {
-  text-decoration: none;
-  max-width: 350px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-.card_header {
-  padding: 3px;
-  text-align: center;
-}
-
-.card_text {
-  word-break: normal;
-  font-weight: 300;
-  font-size: 80%;
-}
-
 .footer_padding {
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 </style>
