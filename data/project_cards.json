@@ -1,18 +1,21 @@
 [
   {
     "title": "Signposts AR",
+    "technologies": "Swift, RealityKit, UIKit, Firebase.",
     "text": "An iOS app, built using Swift and RealityKit.",
     "img": "https://i.imgur.com/87LgrIq.png",
     "url": "/projects/signposts-ar"
   },
   {
     "title": "Acebook",
+    "technologies": "Ruby on Rails, JavaScript, RSpec, TravisCI.",
     "text": "A popular social media website, cloned. Built using Ruby on Rails.",
     "img": "https://i.imgur.com/m7Lbeyq.png",
     "url": "/projects/acebook"
   },
   {
     "title": "Colson Design",
+    "technologies": "Vue.JS, Vuetify.",
     "text": "My personal website, built in Vue.JS and Vuetify.",
     "img": "https://i.imgur.com/ddqG122.png",
     "url": "/projects/about-colson-design"

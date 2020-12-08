@@ -15,7 +15,8 @@
                   :class="{ 'on-hover': hover }"
                   min-width="15em"
                   max-width="22em"
-                  min-height="38em"
+                  min-height="40em"
+                  max-height="40em"
                 >
                   <a :href="item.url">
                     <v-img :src="item.img" height="30em">
@@ -29,7 +30,8 @@
                   <v-card-title primary-title>
                     <span class="headline black--text">{{ item.title }}</span>
                   </v-card-title>
-                  <v-card-subtitle>{{ item.text }}</v-card-subtitle>
+                  <v-card-subtitle><strong>{{ item.technologies }}</strong></v-card-subtitle>
+                  <v-card-text>{{ item.text }}</v-card-text>
                 </v-card>
               </v-hover>
             </v-col>
