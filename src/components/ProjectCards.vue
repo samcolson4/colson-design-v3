@@ -18,7 +18,7 @@
                   min-height="38em"
                 >
                   <a :href="item.url">
-                    <v-img :src="item.img" height="500px">
+                    <v-img :src="item.img" height="30em">
                       <v-container fill-height fluid>
                         <v-layout fill-height>
                           <v-flex xs12 align-end flexbox> </v-flex>
@@ -27,10 +27,9 @@
                     </v-img>
                   </a>
                   <v-card-title primary-title>
-                      <span class="headline black--text">{{ item.title }}</span>
+                    <span class="headline black--text">{{ item.title }}</span>
                   </v-card-title>
                   <v-card-subtitle>{{ item.text }}</v-card-subtitle>
-
                 </v-card>
               </v-hover>
             </v-col>
