@@ -42,31 +42,14 @@
 </template>
 
 <script>
+import projects from '../../data/project_cards.json';
 export default {
   name: 'ProjectCards',
-  data: () => ({
-    items: [
-      {
-        title: 'Signposts AR',
-        text: 'An iOS app, built using Swift and RealityKit.',
-        img: 'https://i.imgur.com/87LgrIq.png',
-        url: '/projects/signposts-ar'
-      },
-      {
-        title: 'Acebook',
-        text:
-          'A popular social media website, cloned. Built using Ruby on Rails.',
-        img: 'https://i.imgur.com/m7Lbeyq.png',
-        url: '/projects/acebook'
-      },
-      {
-        title: 'Colson Design',
-        text: 'My personal website, built in Vue.JS and Vuetify.',
-        img: 'https://i.imgur.com/ddqG122.png',
-        url: '/projects/about-colson-design'
-      }
-    ]
-  })
+  data() {
+    return {
+      items: projects
+    };
+  }
 };
 </script>
 
