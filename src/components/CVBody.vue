@@ -4,18 +4,16 @@
       <v-row justify="center">
         <v-card class="mx-4 pa-4" max-width="70em">
           <v-column>
-            <div class="image-cropper">
+            <div class="image-cropper mx-auto">
               <v-img
                 src="https://avatars0.githubusercontent.com/u/7012161?s=460&u=3fc808de3a1dda9ca3c758091d1bc8b2d7693ebf&v=4"
                 max-height="250"
                 max-width="250"
               ></v-img>
             </div>
-          </v-column>
+          <!-- </v-column> -->
 
-          <!-- <v-divider vertical></v-divider> -->
-
-          <v-column>
+          <!-- <v-column> -->
             <v-card-text
               >I recently completed a three month Makers Bootcamp where I taught
               myself Ruby, JavaScript and Swift by building a range of
