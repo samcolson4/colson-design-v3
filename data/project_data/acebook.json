@@ -3,9 +3,12 @@
     "title": "Acebook",
     "par_img1": "https://i.ibb.co/c6L7KhN/sd.png",
     "par_img2": "https://i.ibb.co/3NKj420/resize-acebook.png",
+    "par_img3": "https://i.ibb.co/9wLKpyp/Screenshot-2020-12-09-at-18-17-12.png",
     "color": "indigo",
+    "bgcolor": "grey lighten-4",
     "logo": "https://i.imgur.com/m7Lbeyq.png", 
     "intro1": "A small team built 'Acebook' over the course of 10 days in order to learn Ruby on Rails. Ipsum Lorem asjdfihodhdaf asiohdaosihd asdhaiodh adh sdhidig9e sdoaso doasdj sD[PPN XZJX DJD ADOSD ADSOJS SDJ ",
-    "intro2": "This is some more text."
+    "intro2": "This is some more text.",
+    "tech1": "Acebook is built with Ruby on Rails."
   }
 ]
