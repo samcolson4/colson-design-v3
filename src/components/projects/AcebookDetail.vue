@@ -38,12 +38,28 @@
         </v-column>
         <v-column>
           <v-card max-width="30em" class="ma-5">
-            <v-card-title> {{ project.title }} Technologies </v-card-title>
+            <v-card-title> Technologies </v-card-title>
             <v-card-text> {{ project.tech1 }} </v-card-text>
             <v-card-text> {{ project.tech2 }} </v-card-text>
           </v-card>
         </v-column>
       </v-row>
+
+      <v-row class="justify-center" :class="project.bgcolor">
+        <v-column>
+          <v-card class="ma-5">
+            <v-img :src="project.screen2" max-width="20em"></v-img>
+          </v-card>
+        </v-column>
+        <v-column>
+          <v-card max-width="30em" class="ma-5">
+            <v-card-title> Teamwork </v-card-title>
+            <v-card-text> {{ project.team1 }} </v-card-text>
+            <v-card-text> {{ project.team2 }} </v-card-text>
+          </v-card>
+        </v-column>
+      </v-row>
+
       <v-parallax
         :src="project.par_img3"
         alt="acebook github screenshot"
@@ -51,11 +67,15 @@
 
       <v-row class="justify-center" :class="project.bgcolor">
         <v-column>
-          <v-card max-width="30em" class="ma-5">
-            <v-card-title> Links</v-card-title>
-            <v-btn></v-btn>
-            <v-btn></v-btn>
-            <v-btn></v-btn>
+          <v-card min-width="30em" max-width="30em" class="ma-5">
+            <v-card-title>More Information</v-card-title>
+            <v-btn class="ma-3 white--text" :class="project.color"
+              >GitHub</v-btn
+            >
+            <v-btn class="ma-3 white--text" :class="project.color"
+              >Live App</v-btn
+            >
+            <v-btn class="ma-3 white--text" :class="project.color">Three</v-btn>
           </v-card>
         </v-column>
       </v-row>

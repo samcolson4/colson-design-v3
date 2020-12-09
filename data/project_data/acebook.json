@@ -11,6 +11,9 @@
     "intro2": "This is some more text.",
     "screen1": "https://i.ibb.co/XD41tQY/Screenshot-2020-12-09-at-18-42-01.png",
     "tech1": "Acebook is built with Ruby on Rails. We thoroughly tested the codebase using RSpec, whilst using TravisCI to continuously integrate ",
-    "tech2": "Some more about the tech"
+    "tech2": "Some more about the tech",
+    "screen2": "https://i.ibb.co/sCXr6vx/Screenshot-2020-12-09-at-20-21-54.png",
+    "team1": "Ipsum lorem",
+    "team2": "Ipsum lorem"
   }
 ]
