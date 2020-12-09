@@ -32,30 +32,33 @@
 
       <v-row class="justify-center" :class="project.bgcolor">
         <v-column>
+          <v-card class="ma-5">
+            <v-img :src="project.screen1" max-width="20em"></v-img>
+          </v-card>
+        </v-column>
+        <v-column>
           <v-card max-width="30em" class="ma-5">
             <v-card-title> {{ project.title }} Technologies </v-card-title>
             <v-card-text> {{ project.tech1 }} </v-card-text>
             <v-card-text> {{ project.tech2 }} </v-card-text>
           </v-card>
         </v-column>
-        <!-- <v-column>
-          <v-card class="ma-5">
-            <v-img :src="project.logo"></v-img>
-          </v-card>
-        </v-column> -->
       </v-row>
-      <v-parallax :src="project.par_img3" alt="acebook github screenshot"></v-parallax>
+      <v-parallax
+        :src="project.par_img3"
+        alt="acebook github screenshot"
+      ></v-parallax>
 
       <v-row class="justify-center" :class="project.bgcolor">
         <v-column>
           <v-card max-width="30em" class="ma-5">
-            <v-card-title> About {{ project.title }} </v-card-title>
-            <v-card-text> {{ project.intro1 }} </v-card-text>
-            <v-card-text> {{ project.intro2 }} </v-card-text>
+            <v-card-title> Links</v-card-title>
+            <v-btn></v-btn>
+            <v-btn></v-btn>
+            <v-btn></v-btn>
           </v-card>
         </v-column>
       </v-row>
-
     </div>
   </v-container>
 </template>
