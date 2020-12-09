@@ -1,6 +1,8 @@
 [
   {
     "title": "Acebook",
-    "par_img": "../../src/assets/project_images/acebook_par.png"
+    "par_img": "https://i.ibb.co/c6L7KhN/sd.png",
+    "color": "indigo",
+    "intro": "A small team built 'Acebook' over the course of 10 days in order to learn Ruby on Rails."
   }
 ]
