@@ -10,10 +10,10 @@
     "intro1": "A small team built 'Acebook' over the course of 10 days in order to learn Ruby on Rails. Ipsum Lorem asjdfihodhdaf asiohdaosihd asdhaiodh adh sdhidig9e sdoaso doasdj sD[PPN XZJX DJD ADOSD ADSOJS SDJ ",
     "intro2": "This is some more text.",
     "screen1": "https://i.ibb.co/XD41tQY/Screenshot-2020-12-09-at-18-42-01.png",
-    "tech1": "Acebook is built with Ruby on Rails. We thoroughly tested the codebase using RSpec, whilst using TravisCI to continuously integrate ",
-    "tech2": "Some more about the tech",
+    "tech1": "Acebook is built with Ruby on Rails. We thoroughly tested the codebase using RSpec, whilst using TravisCI to continuously integrate different branches into the main project. ",
+    "tech2": "Acebook is currently deployed on Heroku, utilising TravisCI's integration to deploy the latest main branch as it becomes available.",
     "screen2": "https://i.ibb.co/sCXr6vx/Screenshot-2020-12-09-at-20-21-54.png",
-    "team1": "Ipsum lorem",
-    "team2": "Ipsum lorem"
+    "team1": "In order to ensure that we delivered the project in a tight timeframe, whilst also meeting our learning objectives, we ran daily stand-ups and retros. In the stand-up sessions, we allocated tasks based on which team member wanted to learn about a certain area, ensuring that everyone got ownership of the entire project.",
+    "team2": "In our retros, we took time to reflect on what had gone well that day and what could be improved, ensuring that we actioned that as part of the next mornings’ stand-up session. Each of these sessions was chaired by a member of the team on a rotating basis, meaning each member was able to experience leading the group."
   }
 ]
