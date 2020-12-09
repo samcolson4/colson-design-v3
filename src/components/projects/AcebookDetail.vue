@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div v-for="project in projects" v-bind:key="project">
-      <v-parallax :src="project.par_img" alt="person at laptop">
+      <v-parallax :src="project.par_img1" alt="person at laptop">
         <v-container fluid fill-height>
           <v-layout justify-center align-center column pa-5>
             <div
@@ -17,19 +17,18 @@
       <v-row class="justify-center">
         <v-column>
           <v-card max-width="30em" class="ma-5">
-            <v-card-title> About {{project.title}} </v-card-title>
-            <v-card-text>
-            {{ project.intro }}
-            </v-card-text>
+            <v-card-title> About {{ project.title }} </v-card-title>
+            <v-card-text> {{ project.intro1 }} </v-card-text>
+            <v-card-text> {{ project.intro2 }} </v-card-text>
           </v-card>
         </v-column>
         <v-column>
           <v-card class="ma-5">
-          <v-img :src="project.logo"></v-img>
+            <v-img :src="project.logo"></v-img>
           </v-card>
         </v-column>
       </v-row>
-      <v-parallax :src="project.par_img" alt="acebook screenshot"></v-parallax>
+      <v-parallax :src="project.par_img2" alt="acebook screenshot"></v-parallax>
     </div>
   </v-container>
 </template>
