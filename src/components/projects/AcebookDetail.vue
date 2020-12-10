@@ -69,6 +69,10 @@
         <v-column>
           <v-card min-width="30em" max-width="30em" class="ma-5">
             <v-card-title>More Information</v-card-title>
+            <v-card-subtitle
+              >Follow the links below to learn more about
+              {{ project.title }}.</v-card-subtitle
+            >
             <v-btn class="ma-3 white--text" :class="project.color"
               >GitHub</v-btn
             >
