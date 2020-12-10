@@ -1,13 +1,20 @@
 <template>
-  <v-container fluid>
-    <v-layout>
-      <h1>Signposts AR</h1>
-    </v-layout>
-  </v-container>
+  <span>
+  <signpostsAR></signpostsAR>
+  <project-cards></project-cards>
+  </span>
 </template>
 
 <script>
-export default { name: 'SignpostsAR' };
+import ProjectCards from '../../components/ProjectCards.vue';
+import signpostsAR from '../../components/projects/signpostsAR'
+export default {
+  name: 'SignspostsAr',
+  components: {
+    ProjectCards,
+    signpostsAR
+  }
+}
 </script>
 
 <style scoped></style>
