@@ -15,7 +15,7 @@ export default {
   name: 'About Colson Design',
   components: {
     ProjectCards,
-    AboutColsonDesign,
+    AboutColsonDesign
   }
 };
 </script>

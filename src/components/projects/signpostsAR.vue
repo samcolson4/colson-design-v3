@@ -73,10 +73,16 @@
               >Follow the links below to learn more about
               {{ project.title }}.</v-card-subtitle
             >
-            <v-btn :href="project.gitlink" class="ma-3 white--text" :class="project.color"
+            <v-btn
+              :href="project.gitlink"
+              class="ma-3 white--text"
+              :class="project.color"
               >GitHub</v-btn
             >
-            <v-btn :href="project.link2" class="ma-3 white--text" :class="project.color"
+            <v-btn
+              :href="project.link2"
+              class="ma-3 white--text"
+              :class="project.color"
               >TestFlight access</v-btn
             >
           </v-card>
