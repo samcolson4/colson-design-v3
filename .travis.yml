@@ -8,7 +8,7 @@ script:
 deploy:
   provider: heroku
   app: 
-    master: fathomless-everglades-11789
+    main: fathomless-everglades-11789
   api_key:
     secure: Bmsq+fT9LWT0ZXRTtlq8fv0ZUMplvqfXodT3MY21vVNGyzYUgPeJJ2bANRhdjJ2IWEZt5f4swR5L+UXNyqGuqvfr4K9pZ+gibvJoSHLOP1M1IC8HDAbvTOhzTDM7+QX1xLAnmv7fH+q1u3KigVAgwttJGaWnJYSz1M/4SFnX1UN3OJ6mHN6oB3e4w9ZiKj1JagrzSl29eQ6Vty7omh9xqMUOgkXhBBoZgmYWutl1A1dPtiwJ654/IFk07joySVP5cbDqzY48Z+XQGkLde0nXHUsmC/11yFXcmmp8hPI16NiCCegwc2D4D7MwDWsPAQVhpvmG4/XXtNem4GCu3dVFuI5+WBHOwcZMc3vICGMN3LgYwURCPHnDfoqBEp2FADCa3wdvJ7SUwjI4dcmNcB6Ha1H5Ll7jvkqhZ0tDqLY5mhFylLJviP8m7SKWbmZP0Hu7nn6+N31+FLAHdW+MFHAn/Gqm7Sv+dqKThfW4nqYwCNz4ZcEVxmOixNXNY2tHLvEQDvoPfL84CkzyAqdF2Z8b3CRdslNBJ+Rl3ccJ9mTdmSVmmzvq/KN0JMNQmCbBg7dop/ou4OairzJZSVaOEWxDOQ0mOI7y5emgYC2f4w/tME9WeZj0ZIptz2VSSbIqlyFJ+4MZPOJdEB+chY5XNB+ZmZCQBKJbqjKf+QfFruEkl3Y=
   run: "npm run serve"
