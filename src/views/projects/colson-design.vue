@@ -1,13 +1,21 @@
 <template>
-  <v-container fluid>
-    <v-layout>
-      <h1>About Colson Design</h1>
-    </v-layout>
-  </v-container>
+  <span>
+    <about-colson-design></about-colson-design>
+    <br />
+    <hr />
+    <project-cards></project-cards>
+  </span>
 </template>
 
 <script>
-export default { name: 'SignpostsAR' };
-</script>
+import ProjectCards from '../../components/ProjectCards.vue';
+import AboutColsonDesign from '../../components/projects/aboutColsonDesign.vue';
 
-<style scoped></style>
+export default {
+  name: 'About Colson Design',
+  components: {
+    ProjectCards,
+    AboutColsonDesign,
+  }
+};
+</script>
