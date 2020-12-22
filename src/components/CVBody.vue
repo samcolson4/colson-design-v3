@@ -79,7 +79,7 @@
                 ><strong>{{ era.course }} </strong>|
                 {{ era.dates }}</v-card-subtitle
               >
-              <v-divider class="inner-divider"></v-divider>
+              <!-- <v-divider class="inner-divider"></v-divider> -->
               <v-card-text :class="era.textcolor" class="my-0">
                 {{ era.bullet_one }}
               </v-card-text>
