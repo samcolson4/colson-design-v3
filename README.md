@@ -1,5 +1,5 @@
 # colson-design
-
+[![Build Status](https://www.travis-ci.com/samcolson4/colson-design-v3.svg?branch=main)](https://www.travis-ci.com/samcolson4/colson-design-v3)
 ## Project setup
 ```
 npm install
