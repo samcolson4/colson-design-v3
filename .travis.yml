@@ -1,5 +1,7 @@
+before_install:
+  - npm i -g npm
+
 language: vue
 
 script: 
   - npm run serve
-  
