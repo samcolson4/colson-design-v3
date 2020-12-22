@@ -4,6 +4,7 @@ node_js:
 before_script:
 - npm install
 script:
+- npm run build
 - npm run start
 deploy:
   provider: heroku
