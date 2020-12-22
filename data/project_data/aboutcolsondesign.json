@@ -1,7 +1,21 @@
 [
   {
-    "title": "About Colson Design",
-    "par_img": "https://i.ibb.co/bWcFWCF/Remote-working-challenges.png",
-    "color": "blue"
+    "title": "Colson Design",
+    "par_img1": "https://i.ibb.co/bWcFWCF/Remote-working-challenges.png",
+    "color": "blue",
+    "par_img2": "https://i.ibb.co/PxK3PLh/cd1.png",
+    "par_img3": "https://i.ibb.co/9hw1yty/Screenshot-2020-12-22-at-18-20-34.png",
+    "bgcolor": "grey lighten-4",
+    "logo": "https://i.imgur.com/ddqG122.png", 
+    "intro1": "I built Colson Design to learn Vue JS and Vuetify. The site name was chosen because it was the only '.com' I could get with my surname in it for very little money.",
+    "intro2": "This website was a useful project to pick up after I finished the Makers Bootcamp, keeping my coding skills sharp while I look for a job.",
+    "screen1": "https://i.ibb.co/Wnrv6Zc/cdscr1.png",
+    "tech1": "Colson Design is built using Vue.JS and was used primarily as a learning exercise.",
+    "tech2": "The website also utilises the Vuetify framework, lending Google's Material Design color palette and design sensibilities to my personal page.",
+    "screen2": "https://i.ibb.co/0F4fS9R/cdscr2.png",
+    "team1": "This website holds records of my previous projects as well as my CV. It is designed to showcase my work, and give people a peek into how I have improved my skills as a developer over time.",
+    "team2": "O",
+    "gitlink": "https://github.com/samcolson4/colson-design-v3",
+    "link2": "https://colsondesign.com/"
   }
 ]

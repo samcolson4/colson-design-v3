@@ -53,7 +53,7 @@
         </v-column>
         <v-column>
           <v-card max-width="30em" class="ma-5">
-            <v-card-title> Teamwork </v-card-title>
+            <v-card-title> Design & Purpose </v-card-title>
             <v-card-text> {{ project.team1 }} </v-card-text>
             <v-card-text> {{ project.team2 }} </v-card-text>
           </v-card>
@@ -87,9 +87,9 @@
 </template>
 
 <script>
-import data from '../../../data/project_data/acebook.json';
+import data from '../../../data/project_data/aboutcolsondesign.json';
 export default {
-  name: 'AcebookDetail',
+  name: 'About Colson Design detail',
   data() {
     return {
       projects: data
