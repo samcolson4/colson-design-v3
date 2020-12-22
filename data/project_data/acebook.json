@@ -14,6 +14,8 @@
     "tech2": "Acebook is currently deployed on Heroku, utilising TravisCI's integration to deploy the latest main branch as it becomes available.",
     "screen2": "https://i.ibb.co/sCXr6vx/Screenshot-2020-12-09-at-20-21-54.png",
     "team1": "In order to ensure that we delivered the project in a tight timeframe, whilst also meeting our learning objectives, we ran daily stand-ups and retros. In the stand-up sessions, we allocated tasks based on which team member wanted to learn about a certain area, ensuring that everyone got ownership of the entire project.",
-    "team2": "In our retros, we took time to reflect on what had gone well that day and what could be improved, ensuring that we actioned that as part of the next mornings’ stand-up session. Each of these sessions was chaired by a member of the team on a rotating basis, meaning each member was able to experience leading the group."
+    "team2": "In our retros, we took time to reflect on what had gone well that day and what could be improved, ensuring that we actioned that as part of the next mornings’ stand-up session. Each of these sessions was chaired by a member of the team on a rotating basis, meaning each member was able to experience leading the group.",
+    "gitlink": "https://github.com/samcolson4/acebook-team-rex",
+    "link2": "https://acebook-trex.herokuapp.com/"
   }
 ]
