@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     class="cv_upper"
-    src="https://i.imgur.com/6Vbx81h.jpg"
+    src="https://cdn.pixabay.com/photo/2017/12/01/20/56/tree-tops-2991743_1280.jpg"
     alt="woods"
   >
     <v-container fluid fill-height>
