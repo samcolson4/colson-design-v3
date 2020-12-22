@@ -1,0 +1,5 @@
+language: vue
+
+script: 
+  - npm run serve
+  
