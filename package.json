@@ -2,10 +2,15 @@
   "name": "colson-design",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve"
+    "postinstall": "NODE_ENV=development && npm run client-install && npm run client-build && NODE_ENV=production",
+    "client": "npm start --prefix client",
+    "client-build": "npm run build --prefix client",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
@@ -54,5 +59,6 @@
     "last 2 versions",
     "not dead",
     "not ie <= 10"
-  ]
+  ],
+  "postinstall": "NODE_ENV=development && npm run client-install && npm run client-build && NODE_ENV=production"
 }
