@@ -64,8 +64,8 @@ export default {
   max-width: 90%;
 }
 
-.footer_padding {
+/* .footer_padding {
   padding-top: 5em;
   padding-bottom: 5em;
-}
+} */
 </style>

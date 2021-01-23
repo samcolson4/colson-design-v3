@@ -6,6 +6,7 @@
         <router-view></router-view>
       </v-content>
     </div>
+    <Contact></Contact>
     <Footer id="footer"></Footer>
   </v-app>
 </template>
@@ -13,12 +14,14 @@
 <script>
 import AppNavigation from '@/components/AppNavigation';
 import Footer from './components/Footer.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
   components: {
     AppNavigation,
-    Footer
+    Footer,
+    Contact
   }
 };
 </script>

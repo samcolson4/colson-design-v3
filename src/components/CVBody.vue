@@ -160,9 +160,9 @@ export default {
   padding-left: 4%;
 }
 
-.footer_padding {
+/* .footer_padding {
   padding-top: 5em;
-}
+} */
 
 .job_card {
   margin: 15px 15px 15px 15px;
