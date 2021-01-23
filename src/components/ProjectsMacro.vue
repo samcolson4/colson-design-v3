@@ -23,9 +23,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.projects-page {
-  width: 100%;
-  height: 66vh;
-}
-</style>
+<style scoped></style>
