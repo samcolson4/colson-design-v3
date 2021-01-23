@@ -1,6 +1,6 @@
 # colson-design
 
-Deployed [here](www.colsondesign.com).
+➡️➡️➡️[Deployed here](www.colsondesign.com).⬅️⬅️⬅️
 
 ## Project setup
 ```
@@ -26,4 +26,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## To Do
-- Finish CV
+- Improve mobile views.
