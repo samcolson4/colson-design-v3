@@ -1,5 +1,7 @@
 # colson-design
-[![Build Status](https://www.travis-ci.com/samcolson4/colson-design-v3.svg?branch=main)](https://www.travis-ci.com/samcolson4/colson-design-v3)
+
+➡️➡️➡️[Deployed here](www.colsondesign.com).⬅️⬅️⬅️
+
 ## Project setup
 ```
 npm install
@@ -24,4 +26,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## To Do
-- Finish CV
+- Improve mobile views.
