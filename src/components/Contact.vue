@@ -15,7 +15,7 @@
           >Get in touch</v-btn
         >
         <v-btn href="https://samcolson.substack.com" class="ma-3 white--text blue"
-          >Substack</v-btn
+          >Substack (blog)</v-btn
         >
       </v-card>
     </v-layout>
