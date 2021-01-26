@@ -8,7 +8,7 @@
         <v-card-text>
           I am currently freelance, looking for a permanent position as a
           software engineer. If you'd like to get in touch about this, or
-          anything else, please get in touch.
+          anything else, please click below.
         </v-card-text>
 
         <v-btn href="mailto:samcolson4@gmail.com" class="ma-3 white--text blue"
