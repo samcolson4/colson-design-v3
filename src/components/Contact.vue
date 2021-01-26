@@ -14,6 +14,9 @@
         <v-btn href="mailto:samcolson4@gmail.com" class="ma-3 white--text blue"
           >Get in touch</v-btn
         >
+        <v-btn href="https://samcolson.substack.com" class="ma-3 white--text blue"
+          >Substack</v-btn
+        >
       </v-card>
     </v-layout>
   </v-container>
