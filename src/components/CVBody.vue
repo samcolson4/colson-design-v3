@@ -13,14 +13,7 @@
             </div>
             <v-card-title><strong>Sam Colson</strong></v-card-title>
             <v-card-text
-              >I recently completed a three month Makers Bootcamp where I taught
-              myself Ruby, JavaScript and Swift by building a range of
-              applications and websites. In my previous roles, I always pushed
-              myself to learn more and to take ownership in as many areas as
-              possible. I want to bring this attitude and my experience from
-              Makers to my next role, building an outstanding product with
-              clean, well-tested code, whilst continuing to develop my own
-              engineering skills.
+              >I decided to change careers and become a developer to be part of a team building something new, shaping a product that makes a genuine difference to peoples' lives. I have an appreciation for all aspects of software engineering and am striving to be a well-rounded developer, further enhancing my existing skillset and knowledge. I am a strong team player and want to be part of a diverse and dynamic company.
             </v-card-text>
           </v-column>
         </v-card>
