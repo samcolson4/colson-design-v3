@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar fixed app elevate-on-scroll hide-on-scroll color="white">
+  <v-app-bar fixed app elevate-on-scroll color="white">
     <v-tabs fixed-tabs>
       <v-tab to="/">Home</v-tab>
       <v-tab to="/projects">Projects</v-tab>
