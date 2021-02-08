@@ -1,14 +1,14 @@
 [
   {
-    "title": "Freelancer - Public Affairs",
+    "title": "Freelance Consultant",
     "dates": "March 2020 - Present",
-    "employer": "Grayling & freelance",
+    "employer": "Freelance",
     "bullet_one":
-      "Utilising my experience working in-house and for a trade association to support the implementation of public affairs strategies across a broad range of sectors. ",
+      "Technical consultation for a crowdfunding start-up operating in the political sphere.",
     "bullet_two":
-      "Supporting new business development, including creating pitch decks.",
+      "Planning database structure, bulk-email and payments implementation.",
     "bullet_three":
-      "Consulting on the development of a start-up from both a political and technological viewpoint. This includes writing user stories, advising on website UI / UX and developing the database structure.",
+      "Writing user stories and designing UX / UI.",
     "color": "blue darken-1",
     "textcolor": "white--text"
   },
