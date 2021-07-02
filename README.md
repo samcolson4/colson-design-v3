@@ -1,5 +1,7 @@
 # colson-design
 
+[![Build Status](https://www.travis-ci.com/samcolson4/colson-design-v3.svg?branch=main)](https://www.travis-ci.com/samcolson4/colson-design-v3)
+
 ➡️➡️➡️[Deployed here](www.colsondesign.com).⬅️⬅️⬅️
 
 ## Project setup
